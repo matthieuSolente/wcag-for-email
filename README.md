@@ -184,32 +184,32 @@ Sensory Characteristics ([1.3.3](https://www.w3.org/WAI/WCAG21/Understanding/sen
 Write instructions that don't rely solely on shape, size, visual location, orientation, or sound  
 Content Edito  
 
-Use of Color ([1.4.1](https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html)) 
+Use of Color ([1.4.1](https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html))  
 Color is not the only visual way of conveying information. 
 Designer, Content Editor
 
-Contrast (Minimum) ([1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)) 
+Contrast (Minimum) ([1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html))   
 Text or images of text should stand out against a background by meeting a color contrast ratio of 4.5:1. For large text, the ratio is 3:1. 
 Designer
 
-Resize Text ([1.4.4](https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html)) 
+Resize Text ([1.4.4](https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html))   
 All text can be resized up to 200% without negatively affecting the ability to read content or use functions. 
 Designer, Developper
 
-Images of Text ([1.4.5](https://www.w3.org/WAI/WCAG21/Understanding/images-of-text)) 
+Images of Text ([1.4.5](https://www.w3.org/WAI/WCAG21/Understanding/images-of-text))   
 Unless images of text are necessary for presentation, use actual text. 
 Designer, Content Editor
 
 ### WCAG2.0 : User control
 
-Three Flashes or Below Threshold ([2.3.1](https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold.html)) 
+Three Flashes or Below Threshold ([2.3.1](https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold.html))   
 Nothing on a page flashes more than 3x persecond. 
 Designer, Content Editor
 
 
 ### WCAG2.0 : Understandable
 
-Page Titled ([2.4.2](https://www.w3.org/WAI/WCAG21/Understanding/page-titled.html))  
+Page Titled ([2.4.2](https://www.w3.org/WAI/WCAG21/Understanding/page-titled.html))    
 Each page has a unique and descriptive title that lets the user know the topic or purpose.   
 Content Editor  
 
