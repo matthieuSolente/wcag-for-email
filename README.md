@@ -1,4 +1,4 @@
-# wcag-for-email
+# WCAG FOR EMAIL
 
 ## Chronology
 
