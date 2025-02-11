@@ -260,8 +260,8 @@ Content Editor
 
 ### WCAG2.0 : Predictability
 
-On Focus ([3.2.1](https://www.w3.org/WAI/WCAG21/Understanding/on-focus.html))\   
-When elements receive focus, no change of context occurs (e.g., form automatically submits).\   
+On Focus ([3.2.1](https://www.w3.org/WAI/WCAG21/Understanding/on-focus.html))     
+When elements receive focus, no change of context occurs (e.g., form automatically submits).     
 Developer, Designer  
 
 Consistent Identification ([3.2.4](https://www.w3.org/WAI/WCAG21/Understanding/consistent-identification))\   
