@@ -71,6 +71,13 @@ These guidelines serve as categories for the success criteria that make up WCAG;
 
 Like WCAG 1.0, this version of the W3C’s web accessibility guidelines categorizes the guidelines into three primary testing levels: A, AA, and AAA.
 
+## 2018 WCAG 2.1
+
+In June 2028, WCAG 2.1 was released. Rather than a complete overhaul as was seen in the transition from version 1.0 to version 2.0, WCAG 2.1 added success criteria to the existing 2.0 guidelines. This addition of new rules—rather than re-establishing old rules—is a testament to the careful crafting of WCAG 2.0. Many of the new rules in WCAG 2.1 remove accessibility barriers that have become apparent as mobile web browsing has become more popular.
+
+## 2023 WCAG 2.2
+
+In August 2023, WCAG 2.2 is published. Again an extension of the existing standards, the WCAG 2.2 working draft currently includes new success criteria and implements a change to an existing success criterion (2.4.7: Focus Visible will move from conformance level AA to level A).
 
 ## Summary of Web Content Accessibility Guidelines (WCAG) 2.1 and 2.2.
 
@@ -101,13 +108,6 @@ Like WCAG 1.0, this version of the W3C’s web accessibility guidelines categori
 
 Each of the twelve guidelines is broken down into one or more "success criteria" of level A, AA or AAA, which become the basis for evaluating the accessibility of the site.
 
-## 2018 WCAG 2.1
-
-In June 2028, WCAG 2.1 was released. Rather than a complete overhaul as was seen in the transition from version 1.0 to version 2.0, WCAG 2.1 added success criteria to the existing 2.0 guidelines. This addition of new rules—rather than re-establishing old rules—is a testament to the careful crafting of WCAG 2.0. Many of the new rules in WCAG 2.1 remove accessibility barriers that have become apparent as mobile web browsing has become more popular.
-
-## 2023 WCAG 2.2
-
-In August 2023, WCAG 2.2 is published. Again an extension of the existing standards, the WCAG 2.2 working draft currently includes new success criteria and implements a change to an existing success criterion (2.4.7: Focus Visible will move from conformance level AA to level A).
 
 ### Guidelines
 
@@ -178,6 +178,12 @@ In France, the **General Framework for Improving Accessibility RGAA - Version 4.
 [Official page](https://accessibilite.numerique.gouv.fr/)
 
 ## Criteria applicable to emails
+
+Now that we have reviewed the history, foundations, various laws, and areas of application of digital accessibility, we can focus on applying all of these WCAG guidelines to the world of emails. Many articles on this subject exist, providing a general idea of what is applicable or not. However, many of them mix WCAG criteria with broader recommendations, which can lead to some confusion.
+
+Here is the complete list of accessibility criteria directly derived from WCAG and applicable to emails. Adhering to these criteria ensures full compliance with accessibility standards.
+
+For this section, I have exclusively relied on the article by Kris Rivenburgh and extracted the criteria specifically related to emailing. Visit his page titled "[Email Accessibility Best Practices](https://accessible.org/email-accessibility/)" to learn more.
 
 Source : [Kris's WCAG Checklist](https://accessible.org/Kris-Rivenburgh-WCAG-Checklist.pdf)
 
@@ -308,7 +314,13 @@ Target Size (Minimum) ([2.5.8](https://www.w3.org/WAI/WCAG22/Understanding/targe
 Make the target size for interactive elements at least 24 by 24 CSS pixels.<br/>   
 Designer  
 
+## Tests and Criteria
 
+To further enhance email accessibility, I created a page based on the French framework in this area, the "General Accessibility Framework for Administrations" (RGAA). Fully based on WCAG, this framework outlines the criteria necessary to ensure full compliance.
+
+The "Tests and Criteria" page is simply the most comprehensive and clear summary I have found on the web regarding WCAG guidelines.
+
+The logical classification and enumeration of criteria make it easier to identify key points of attention when analyzing an email or a web page. The descriptions of the tests to be performed for each criterion provide valuable assistance, making it easier to understand and remember the compliance criteria.
 
 ## References 
 
