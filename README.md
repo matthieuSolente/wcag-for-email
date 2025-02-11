@@ -338,6 +338,14 @@ The logical classification and enumeration of criteria make it easier to identif
 - [objectifpapillon](https://www.objectifpapillon.fr/reglementations-accessibilite-internet)
 - [WebAim](https://webaim.org/standards/wcag/checklist)
 - [accessible.org](https://accessible.org/Kris-Rivenburgh-WCAG-Checklist.pdf)
+- [Sarah Gallardo](https://www.linkedin.com/in/sarahjoga/)
+- [Mark Robbins](https://www.goodemailcode.com/)
+- [Paul Airy](https://beyondtheenvelope.co.uk/)
+- [Ux Movement](https://uxmovement.com/content/6-surprising-bad-practices-that-hurt-dyslexic-users/)
+- [boia blog](https://www.boia.org/blog)
+- [a11y blog](https://www.a11y-101.com/development/underlined-links)
+                 
+                  
 
 
 
