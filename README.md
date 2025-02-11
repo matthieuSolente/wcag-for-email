@@ -2,6 +2,17 @@
 
 ## Chronology
 
+Here is a clear and concise chronology that outlines the origins of digital accessibility and provides an understanding of its development over time.
+
+The World Wide Web Consortium (W3C) is an international non-profit organization focused on the public interest. It brings together member organizations, full-time staff, and the public to collaboratively develop web standards.
+
+The Web Accessibility Initiative (WAI) is a crucial part of W3C's mission to benefit society. It develops strategies, standards, and resources to ensure the web is accessible to people with disabilities.
+
+The Web Content Accessibility Guidelines 1.0 (WCAG) were published as a W3C Recommendation on May 5, 1999.
+
+Since then, digital accessibility has become an integral part of the web. The WCAG have evolved to their latest version (2.2) and are expected to continue evolving. Most countries, with Western nations leading the way, driven by a strong inclusivity movement, have developed their own digital accessibility policies, all based on the WCAG guidelines.
+
+
 | 1989  | 1994 | 1997 | 1999 | 2008 | 2018 | 2023 |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | World Wide Web  | Word Wild Web Constortium  | Web Accessibility Initiative | WCAG1.0 | WCAG 2.0 | WCAG 2.1 | WCAG 2.2 |
@@ -60,13 +71,6 @@ These guidelines serve as categories for the success criteria that make up WCAG;
 
 Like WCAG 1.0, this version of the W3C’s web accessibility guidelines categorizes the guidelines into three primary testing levels: A, AA, and AAA.
 
-## 2018 WCAG 2.1
-
-In June 2028, WCAG 2.1 was released. Rather than a complete overhaul as was seen in the transition from version 1.0 to version 2.0, WCAG 2.1 added success criteria to the existing 2.0 guidelines. This addition of new rules—rather than re-establishing old rules—is a testament to the careful crafting of WCAG 2.0. Many of the new rules in WCAG 2.1 remove accessibility barriers that have become apparent as mobile web browsing has become more popular.
-
-## 2023 WCAG 2.2
-
-In August 2023, WCAG 2.2 is published. Again an extension of the existing standards, the WCAG 2.2 working draft currently includes new success criteria and implements a change to an existing success criterion (2.4.7: Focus Visible will move from conformance level AA to level A).
 
 ## Summary of Web Content Accessibility Guidelines (WCAG) 2.1 and 2.2.
 
@@ -96,6 +100,14 @@ In August 2023, WCAG 2.2 is published. Again an extension of the existing standa
 - Optimize compatibility with current and future users' tools.
 
 Each of the twelve guidelines is broken down into one or more "success criteria" of level A, AA or AAA, which become the basis for evaluating the accessibility of the site.
+
+## 2018 WCAG 2.1
+
+In June 2028, WCAG 2.1 was released. Rather than a complete overhaul as was seen in the transition from version 1.0 to version 2.0, WCAG 2.1 added success criteria to the existing 2.0 guidelines. This addition of new rules—rather than re-establishing old rules—is a testament to the careful crafting of WCAG 2.0. Many of the new rules in WCAG 2.1 remove accessibility barriers that have become apparent as mobile web browsing has become more popular.
+
+## 2023 WCAG 2.2
+
+In August 2023, WCAG 2.2 is published. Again an extension of the existing standards, the WCAG 2.2 working draft currently includes new success criteria and implements a change to an existing success criterion (2.4.7: Focus Visible will move from conformance level AA to level A).
 
 ### Guidelines
 
@@ -144,7 +156,10 @@ EU legislation establishing standard accessibility requirements for websites, mo
 
 ### ACT 2005-102 and RGAA
 
-Ensuring equal access to digital services in France, others will follow with the deployment of EAA in 2025
+Ensuring equal access to digital services in France, others will follow with the deployment of EAA in 2025.
+
+As mentioned earlier, each country has its own internal regulations, all of which are based on the WCAG guidelines.
+
 
 ## EAA: Fields of Application
 
@@ -163,6 +178,9 @@ In France, the **General Framework for Improving Accessibility RGAA - Version 4.
 [Official page](https://accessibilite.numerique.gouv.fr/)
 
 ## Criteria applicable to emails
+
+Source : [Kris's WCAG Checklist](https://accessible.org/Kris-Rivenburgh-WCAG-Checklist.pdf)
+
 
 ### WCAG2.0 : Alternatives
 
@@ -290,6 +308,24 @@ Target Size (Minimum) ([2.5.8](https://www.w3.org/WAI/WCAG22/Understanding/targe
 Make the target size for interactive elements at least 24 by 24 CSS pixels.<br/>   
 Designer  
 
+
+
+## References 
+
+- [W3C](https://www.w3.org/)
+- [World Wide Web](https://developer.mozilla.org/fr/docs/Glossary/World_Wide_Web)
+- [WAI](https://developer.mozilla.org/fr/docs/Glossary/WAI)
+- [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/fr)
+- [RGAA](https://accessibilite.numerique.gouv.fr/)
+- [Accessible Web]([https://accessibleweb.com/](https://accessibleweb.com/wcag/wcag-version-history/))
+- [Harvard University](https://accessibility.huit.harvard.edu/)
+- [Veroniiiica](https://veroniiiica.com/how-to-write-alt-text-digital-comics/)
+- [Last Call Media](https://lastcallmedia.com/blog/accessible-comics)
+- [blog ipedis](https://blog.ipedis.com/historique-des-normes-et-referentiels-d-accessibilite-numerique)
+- [bestwebsiteaccessibility](https://bestwebsiteaccessibility.com/fr/wcag-compliance/)
+- [objectifpapillon](https://www.objectifpapillon.fr/reglementations-accessibilite-internet)
+- [WebAim](https://webaim.org/standards/wcag/checklist)
+- [accessible.org](https://accessible.org/Kris-Rivenburgh-WCAG-Checklist.pdf)
 
 
 
