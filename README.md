@@ -179,11 +179,11 @@ In France, the **General Framework for Improving Accessibility RGAA - Version 4.
 
 ## Criteria applicable to emails
 
-Now that we have reviewed the history, foundations, various laws, and areas of application of digital accessibility, we can focus on applying all of these WCAG guidelines to the world of emails. Many articles on this subject exist, providing a general idea of what is applicable or not. However, many of them mix WCAG criteria with broader recommendations, which can lead to some confusion.
+Now that we have reviewed the history, foundations, various laws, and areas of application of digital accessibility, we can focus on **applying all of these WCAG guidelines to the world of emails**. Many articles on this subject exist, providing a general idea of what is applicable or not. However, many of them mix WCAG criteria with broader recommendations, which can lead to some confusion.
 
-Here is the complete list of accessibility criteria directly derived from WCAG and applicable to emails. Adhering to these criteria ensures full compliance with accessibility standards.
+Here is the **complete list of accessibility criteria** directly **derived from WCAG** and **applicable to emails**. Adhering to these criteria ensures full compliance with accessibility standards.
 
-For this section, I have exclusively relied on the article by Kris Rivenburgh and extracted the criteria specifically related to emailing. Visit his page titled "[Email Accessibility Best Practices](https://accessible.org/email-accessibility/)" to learn more.
+For this section, I have exclusively relied on the article by **Kris Rivenburgh** and extracted the criteria specifically related to emailing. Visit his page titled "[Email Accessibility Best Practices](https://accessible.org/email-accessibility/)" to learn more.
 
 Source : [Kris's WCAG Checklist](https://accessible.org/Kris-Rivenburgh-WCAG-Checklist.pdf)
 
@@ -316,18 +316,18 @@ Designer
 
 ## Tests and Criteria
 
-To further enhance email accessibility, I created a page based on the French framework in this area, the "General Accessibility Framework for Administrations" (RGAA). Fully based on WCAG, this framework outlines the criteria necessary to ensure full compliance.
+To further **enhance email accessibility**, I created a page based on the French framework in this area, the "**General Accessibility Framework for Administrations**" (RGAA). Fully **based on WCAG**, this framework outlines the criteria necessary to **ensure full compliance**.
 
-The "Tests and Criteria" page is simply the most comprehensive and clear summary I have found on the web regarding WCAG guidelines.
+The "Tests and Criteria" page is simply **the most comprehensive and clear summary** I have found on the web regarding WCAG guidelines.
 
-The logical classification and enumeration of criteria make it easier to identify key points of attention when analyzing an email or a web page. The descriptions of the tests to be performed for each criterion provide valuable assistance, making it easier to understand and remember the compliance criteria.
+The **logical classification** and **enumeration of criteria** make it easier to identify key points of attention when analyzing an email or a web page. The **descriptions of the tests** to be performed for each criterion provide valuable assistance, making it **easier to understand** and remember the compliance criteria.
 
-My page is therefore an exact replica of the RGAA criteria and tests, with all the credit going to the official bodies. My role was to select only the criteria strictly applicable to emails, omitting everything else.
+My page is therefore an **exact replica of the RGAA criteria and tests**, with all the credit going to the official bodies. My role was to select only the **criteria strictly applicable to emails**, omitting everything else. I've translated all the texts into English, to share it with as many people as possible.
 
 I kept the same layout by extracting the code from the official website (like a fork), then removed all the JavaScript and simply replaced the accordions with "details" HTML tags.
 
 
-It is thus a concrete and functional checklist, designed to support every email developer or marketer when creating email campaigns.
+It is thus a **concrete and functional checklist**, designed to support every email developer or marketer when creating email campaigns.
 
 For the "recommendations" section, I relied heavily on online sources, all cited in the following paragraph, on my own knowledge, and on exchanges with many email developers, notably within the "email geek slack" space.
 
