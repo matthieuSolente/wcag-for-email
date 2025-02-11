@@ -329,7 +329,7 @@ The logical classification and enumeration of criteria make it easier to identif
 - [WAI](https://developer.mozilla.org/fr/docs/Glossary/WAI)
 - [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/fr)
 - [RGAA](https://accessibilite.numerique.gouv.fr/)
-- [Accessible Web]([https://accessibleweb.com/](https://accessibleweb.com/wcag/wcag-version-history/))
+- [Accessible Web](https://accessibleweb.com/wcag/wcag-version-history/)
 - [Harvard University](https://accessibility.huit.harvard.edu/)
 - [Veroniiiica](https://veroniiiica.com/how-to-write-alt-text-digital-comics/)
 - [Last Call Media](https://lastcallmedia.com/blog/accessible-comics)
