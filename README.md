@@ -44,7 +44,7 @@ WCAG 1.0 has 14 guidelines, the first 11 of which are aimed at ensuring that con
 ### WCAG Accessibility levels
 
 | Level | Objective | Feasibility | Example |
-| ------------- | ------------- | ------------- | 
+| ------------- | ------------- | ------------- | ------------- | 
 | A  | Achieve a minimum level of accessibility. | Essential success criteria that can reasonably be applied to all web resources. |Color is not the only visual means of conveying information. |
 | AA  | Improve the level of accessibility  | Additional success criteria that can reasonably be applied to all web resources. | Small texts have a contrast ratio of at least 4.5 |
 | AAA  | Achieving a higher level of accessibility.  | Success criteria not applicable to all web resources. | Small texts have a contrast ratio of at least 7. |
