@@ -190,128 +190,128 @@ Source : [Kris's WCAG Checklist](https://accessible.org/Kris-Rivenburgh-WCAG-Che
 
 ### WCAG2.0 : Alternatives
 
-Non-Text Content ([1.1.1](https://www.w3.org/Translations/WCAG21-fr/#non-text-content))<br/>
-Provide text alternatives for all non-text content (e.g., images, maps, art, photos, infographics, graphs).<br/>   
+Non-Text Content ([1.1.1](https://www.w3.org/Translations/WCAG21-fr/#non-text-content))\
+Provide text alternatives for all non-text content (e.g., images, maps, art, photos, infographics, graphs).\
 Developer, Content Editor
 
 ### WCAG2.0 : Presentation
 
-Info and Relationships ([1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships))<br/>  
-Ensure information, relationships, and structure conveyed through visual or audible presentation are available programmatically or through text.<br/>  
+Info and Relationships ([1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships))\
+Ensure information, relationships, and structure conveyed through visual or audible presentation are available programmatically or through text.\
 Developer, Content Editor  
 
-Meaningful Sequence ([1.3.2](https://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence.html))<br/>   
-Preserve the logical sequence of content in the code (programmatically)<br/>  
+Meaningful Sequence ([1.3.2](https://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence.html))\
+Preserve the logical sequence of content in the code (programmatically)\
 Developer  
 
-Sensory Characteristics ([1.3.3](https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html))<br/>   
-Write instructions that don't rely solely on shape, size, visual location, orientation, or sound.<br/>  
+Sensory Characteristics ([1.3.3](https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html))\
+Write instructions that don't rely solely on shape, size, visual location, orientation, or sound.\
 Content Editor  
 
-Use of Color ([1.4.1](https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html))<br/>
-Color is not the only visual way of conveying information.<br/> 
+Use of Color ([1.4.1](https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html))\
+Color is not the only visual way of conveying information.\
 Designer, Content Editor
 
-Contrast (Minimum) ([1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html))<br/>   
-Text or images of text should stand out against a background by meeting a color contrast ratio of 4.5:1. For large text, the ratio is 3:1.<br/> 
+Contrast (Minimum) ([1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html))\
+Text or images of text should stand out against a background by meeting a color contrast ratio of 4.5:1. For large text, the ratio is 3:1.\
 Designer
 
-Resize Text ([1.4.4](https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html))<br/> 
-All text can be resized up to 200% without negatively affecting the ability to read content or use functions.<br/>  
+Resize Text ([1.4.4](https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html))\
+All text can be resized up to 200% without negatively affecting the ability to read content or use functions.\
 Designer, Developper
 
-Images of Text ([1.4.5](https://www.w3.org/WAI/WCAG21/Understanding/images-of-text))<br/>   
-Unless images of text are necessary for presentation, use actual text.<br/> 
+Images of Text ([1.4.5](https://www.w3.org/WAI/WCAG21/Understanding/images-of-text))\
+Unless images of text are necessary for presentation, use actual text.\
 Designer, Content Editor
 
 ### WCAG2.0 : User control
 
-Three Flashes or Below Threshold ([2.3.1](https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold.html))<br/>   
-Nothing on a page flashes more than 3x persecond.<br/> 
+Three Flashes or Below Threshold ([2.3.1](https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold.html))\
+Nothing on a page flashes more than 3x persecond.\
 Designer, Content Editor
 
 
 ### WCAG2.0 : Understandable
 
 Page Titled ([2.4.2](https://www.w3.org/WAI/WCAG21/Understanding/page-titled.html))\
-Each page has a unique and descriptive title that lets the user know the topic or purpose.\   
+Each page has a unique and descriptive title that lets the user know the topic or purpose.\
 Content Editor  
 
-Link Purpose (in Context) ([2.4.4](https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html))\  
-Users should know the purpose or destination of a link from the link text alone or using the link’s context.\   
+Link Purpose (in Context) ([2.4.4](https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html))\
+Users should know the purpose or destination of a link from the link text alone or using the link’s context.\
 Content Editor  
 
-Headings and Labels ([2.4.6](https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html))\  
-Use headings and labels that are clear and descriptive of topic or purpose.\  
+Headings and Labels ([2.4.6](https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html))\
+Use headings and labels that are clear and descriptive of topic or purpose.\
 Content Editor  
 
-Focus Visible ([2.4.7](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html))\   
-Interactive elements (e.g., links, buttons, form fields) must have a visible focus indicator when they receive focus.\   
+Focus Visible ([2.4.7](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html))\
+Interactive elements (e.g., links, buttons, form fields) must have a visible focus indicator when they receive focus.\
 Developer, Designer  
 
-Language of Page ([3.1.1](https://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html))\   
-Set a default language in the code for each page.\  
+Language of Page ([3.1.1](https://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html))\
+Set a default language in the code for each page.\
 Developer  
 
-Language of Parts ([3.1.2](https://www.w3.org/WAI/WCAG21/Understanding/language-of-parts.html))\   
-When the language of a page changes, the new language should be set in the code.\  
+Language of Parts ([3.1.2](https://www.w3.org/WAI/WCAG21/Understanding/language-of-parts.html))\
+When the language of a page changes, the new language should be set in the code.\
 Content Editor  
 
 
 ### WCAG2.0 : Predictability
 
-On Focus ([3.2.1](https://www.w3.org/WAI/WCAG21/Understanding/on-focus.html))     
-When elements receive focus, no change of context occurs (e.g., form automatically submits).     
+On Focus ([3.2.1](https://www.w3.org/WAI/WCAG21/Understanding/on-focus.html))\
+When elements receive focus, no change of context occurs (e.g., form automatically submits).\
 Developer, Designer  
 
-Consistent Identification ([3.2.4](https://www.w3.org/WAI/WCAG21/Understanding/consistent-identification))\   
-Elements with the same functionality should have consistent labels, names, and text alternatives.\  
+Consistent Identification ([3.2.4](https://www.w3.org/WAI/WCAG21/Understanding/consistent-identification))\
+Elements with the same functionality should have consistent labels, names, and text alternatives.\
 Developer, Designer  
 
-Labels or Instructions ([3.3.2](https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html))\   
-Labels and instructions should be clear and descriptive so that users know what input is expected and how to interact with forms and other elements.\  
+Labels or Instructions ([3.3.2](https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html))\
+Labels and instructions should be clear and descriptive so that users know what input is expected and how to interact with forms and other elements.\
 Developer, Designer  
 
-Consistent Identification ([3.2.4](https://www.w3.org/WAI/WCAG21/Understanding/consistent-identification))\  
-Elements with the same functionality should have consistent labels, names, and text alternatives.\  
+Consistent Identification ([3.2.4](https://www.w3.org/WAI/WCAG21/Understanding/consistent-identification))\
+Elements with the same functionality should have consistent labels, names, and text alternatives.\
 Developer, Designer  
 
-Name, Role, Value ([4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html))\   
-For all user interface components (like forms, links, and script-generated items), make sure their name, role, state, properties, and/or value can be identified programmatically. Users should also be able to update the state and value when applicable.\   
+Name, Role, Value ([4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html))\
+For all user interface components (like forms, links, and script-generated items), make sure their name, role, state, properties, and/or value can be identified programmatically. Users should also be able to update the state and value when applicable.\
 Developer   
 
 ### WCAG2.1 AA : Predictability
 
 2.1 AA includes all previous criteria plus the following criteria.
 
-Orientation ([1.3.4](https://www.w3.org/WAI/WCAG21/Understanding/orientation.html))\  
-Content should display at any orientation (e.g., landscape, portrait).\   
+Orientation ([1.3.4](https://www.w3.org/WAI/WCAG21/Understanding/orientation.html))\
+Content should display at any orientation (e.g., landscape, portrait).\
 Developer  
 
-Reflow ([1.4.10](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html))\  
-Users must be able to increase the size of content up to 400% without needing to scroll horizontally.\  
+Reflow ([1.4.10](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html))\
+Users must be able to increase the size of content up to 400% without needing to scroll horizontally.\
 Designer  
 
 ### WCAG2.1 AA
 
-Non-Text Contrast ([1.4.11](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html))\   
-All meaningful non-text content (e.g., icons) should have a minimum 3:1 color contrast ratio against adjacent/background colors.\   
+Non-Text Contrast ([1.4.11](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html))\
+All meaningful non-text content (e.g., icons) should have a minimum 3:1 color contrast ratio against adjacent/background colors.\
 Designer  
 
-Text Spacing ([1.4.12](https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html))\   
-Users can adjust the text spacing (e.g., line height, letter spacing, word spacing) without causing a loss of content or functionality.\   
+Text Spacing ([1.4.12](https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html))\
+Users can adjust the text spacing (e.g., line height, letter spacing, word spacing) without causing a loss of content or functionality.\
 Designer, Developer  
 
 ### WCAG2.2 AA
 
 2.2 AA includes all previous criteria plus the following criteria.  
 
-Focus Not Obscured (Minimum) ([2.4.11](https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum.html))\  
-When an element receives focus, the focus / focused element is not entirely hidden or blocked.\   
+Focus Not Obscured (Minimum) ([2.4.11](https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum.html))\
+When an element receives focus, the focus / focused element is not entirely hidden or blocked.\
 Designer  
 
-Target Size (Minimum) ([2.5.8](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html))\   
-Make the target size for interactive elements at least 24 by 24 CSS pixels.\   
+Target Size (Minimum) ([2.5.8](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html))\
+Make the target size for interactive elements at least 24 by 24 CSS pixels.\
 Designer  
 
 ## Tests and Criteria
