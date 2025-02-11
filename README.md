@@ -322,6 +322,17 @@ The "Tests and Criteria" page is simply the most comprehensive and clear summary
 
 The logical classification and enumeration of criteria make it easier to identify key points of attention when analyzing an email or a web page. The descriptions of the tests to be performed for each criterion provide valuable assistance, making it easier to understand and remember the compliance criteria.
 
+My page is therefore an exact replica of the RGAA criteria and tests, with all the credit going to the official bodies. My role was to select only the criteria strictly applicable to emails, omitting everything else.
+
+I kept the same layout by extracting the code from the official website (like a fork), then removed all the JavaScript and simply replaced the accordions with "details" HTML tags.
+
+
+It is thus a concrete and functional checklist, designed to support every email developer or marketer when creating email campaigns.
+
+For the "recommendations" section, I relied heavily on online sources, all cited in the following paragraph, on my own knowledge, and on exchanges with many email developers, notably within the "email geek slack" space.
+
+Any contribution or correction to this work on accessibility is truly welcome.
+
 ## References 
 
 - [W3C](https://www.w3.org/)
