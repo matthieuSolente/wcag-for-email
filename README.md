@@ -1,4 +1,4 @@
-# WCAG FOR EMAIL
+# Web Content Accessibility Guidelines (WCAG) For Email
 
 ## Chronology
 
