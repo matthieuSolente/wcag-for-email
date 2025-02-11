@@ -166,23 +166,23 @@ In France, the **General Framework for Improving Accessibility RGAA - Version 4.
 
 ### WCAG2.0 : Alternatives
 
-Non-Text Content ([1.1.1](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)) 
-Provide text alternatives for all non-text content (e.g., images, maps, art, photos, infographics, graphs). 
+Non-Text Content ([1.1.1](https://www.w3.org/Translations/WCAG21-fr/#non-text-content))  
+Provide text alternatives for all non-text content (e.g., images, maps, art, photos, infographics, graphs).   
 Developer, Content Edito
 
 ### WCAG2.0 : Presentation
 
-Info and Relationships ([1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships)) 
-Ensure information, relationships, and structure conveyed through visual or audible presentation are available programmatically or through text.
-Developer, Content Editor
+Info and Relationships ([1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships))  
+Ensure information, relationships, and structure conveyed through visual or audible presentation are available programmatically or through text.  
+Developer, Content Editor  
 
-Meaningful Sequence ([1.3.2](https://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence.html)) 
-Preserve the logical sequence of content in the code (programmatically)
-Developer
+Meaningful Sequence ([1.3.2](https://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence.html))   
+Preserve the logical sequence of content in the code (programmatically)  
+Developer  
 
-Sensory Characteristics ([1.3.3](https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html)) 
-Write instructions that don't rely solely on shape, size, visual location, orientation, or sound
-Content Edito
+Sensory Characteristics ([1.3.3](https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html))   
+Write instructions that don't rely solely on shape, size, visual location, orientation, or sound  
+Content Edito  
 
 Use of Color ([1.4.1](https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html)) 
 Color is not the only visual way of conveying information. 
