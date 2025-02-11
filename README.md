@@ -233,85 +233,85 @@ Designer, Content Editor
 
 ### WCAG2.0 : Understandable
 
-Page Titled ([2.4.2](https://www.w3.org/WAI/WCAG21/Understanding/page-titled.html))<br/>    
-Each page has a unique and descriptive title that lets the user know the topic or purpose.<br/>   
+Page Titled ([2.4.2](https://www.w3.org/WAI/WCAG21/Understanding/page-titled.html))\
+Each page has a unique and descriptive title that lets the user know the topic or purpose.\   
 Content Editor  
 
-Link Purpose (in Context) ([2.4.4](https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html))<br/>  
-Users should know the purpose or destination of a link from the link text alone or using the link’s context.<br/>   
+Link Purpose (in Context) ([2.4.4](https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html))\  
+Users should know the purpose or destination of a link from the link text alone or using the link’s context.\   
 Content Editor  
 
-Headings and Labels ([2.4.6](https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html))<br/>  
-Use headings and labels that are clear and descriptive of topic or purpose.<br/>  
+Headings and Labels ([2.4.6](https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html))\  
+Use headings and labels that are clear and descriptive of topic or purpose.\  
 Content Editor  
 
-Focus Visible ([2.4.7](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html))<br/>   
-Interactive elements (e.g., links, buttons, form fields) must have a visible focus indicator when they receive focus.<br/>   
+Focus Visible ([2.4.7](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html))\   
+Interactive elements (e.g., links, buttons, form fields) must have a visible focus indicator when they receive focus.\   
 Developer, Designer  
 
-Language of Page ([3.1.1](https://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html))<br/>   
-Set a default language in the code for each page.<br/>  
+Language of Page ([3.1.1](https://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html))\   
+Set a default language in the code for each page.\  
 Developer  
 
-Language of Parts ([3.1.2](https://www.w3.org/WAI/WCAG21/Understanding/language-of-parts.html))<br/>   
-When the language of a page changes, the new language should be set in the code.<br/>  
+Language of Parts ([3.1.2](https://www.w3.org/WAI/WCAG21/Understanding/language-of-parts.html))\   
+When the language of a page changes, the new language should be set in the code.\  
 Content Editor  
 
 
 ### WCAG2.0 : Predictability
 
-On Focus ([3.2.1](https://www.w3.org/WAI/WCAG21/Understanding/on-focus.html))<br/>   
-When elements receive focus, no change of context occurs (e.g., form automatically submits).<br/>   
+On Focus ([3.2.1](https://www.w3.org/WAI/WCAG21/Understanding/on-focus.html))\   
+When elements receive focus, no change of context occurs (e.g., form automatically submits).\   
 Developer, Designer  
 
-Consistent Identification ([3.2.4](https://www.w3.org/WAI/WCAG21/Understanding/consistent-identification))<br/>   
-Elements with the same functionality should have consistent labels, names, and text alternatives.<br/>  
+Consistent Identification ([3.2.4](https://www.w3.org/WAI/WCAG21/Understanding/consistent-identification))\   
+Elements with the same functionality should have consistent labels, names, and text alternatives.\  
 Developer, Designer  
 
-Labels or Instructions ([3.3.2](https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html))<br/>   
-Labels and instructions should be clear and descriptive so that users know what input is expected and how to interact with forms and other elements.<br/>   
+Labels or Instructions ([3.3.2](https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html))\   
+Labels and instructions should be clear and descriptive so that users know what input is expected and how to interact with forms and other elements.\  
 Developer, Designer  
 
-Consistent Identification ([3.2.4](https://www.w3.org/WAI/WCAG21/Understanding/consistent-identification))<br/>  
-Elements with the same functionality should have consistent labels, names, and text alternatives.<br/>  
+Consistent Identification ([3.2.4](https://www.w3.org/WAI/WCAG21/Understanding/consistent-identification))\  
+Elements with the same functionality should have consistent labels, names, and text alternatives.\  
 Developer, Designer  
 
-Name, Role, Value ([4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html))<br/>   
-For all user interface components (like forms, links, and script-generated items), make sure their name, role, state, properties, and/or value can be identified programmatically. Users should also be able to update the state and value when applicable.<br/>   
+Name, Role, Value ([4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html))\   
+For all user interface components (like forms, links, and script-generated items), make sure their name, role, state, properties, and/or value can be identified programmatically. Users should also be able to update the state and value when applicable.\   
 Developer   
 
 ### WCAG2.1 AA : Predictability
 
 2.1 AA includes all previous criteria plus the following criteria.
 
-Orientation ([1.3.4](https://www.w3.org/WAI/WCAG21/Understanding/orientation.html))<br/>   
-Content should display at any orientation (e.g., landscape, portrait).<br/>   
+Orientation ([1.3.4](https://www.w3.org/WAI/WCAG21/Understanding/orientation.html))\  
+Content should display at any orientation (e.g., landscape, portrait).\   
 Developer  
 
-Reflow ([1.4.10](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html))<br/>  
-Users must be able to increase the size of content up to 400% without needing to scroll horizontally.<br/>  
+Reflow ([1.4.10](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html))\  
+Users must be able to increase the size of content up to 400% without needing to scroll horizontally.\  
 Designer  
 
 ### WCAG2.1 AA
 
-Non-Text Contrast ([1.4.11](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html))<br/>   
-All meaningful non-text content (e.g., icons) should have a minimum 3:1 color contrast ratio against adjacent/background colors.<br/>   
+Non-Text Contrast ([1.4.11](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html))\   
+All meaningful non-text content (e.g., icons) should have a minimum 3:1 color contrast ratio against adjacent/background colors.\   
 Designer  
 
-Text Spacing ([1.4.12](https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html))<br/>   
-Users can adjust the text spacing (e.g., line height, letter spacing, word spacing) without causing a loss of content or functionality.<br/>   
+Text Spacing ([1.4.12](https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html))\   
+Users can adjust the text spacing (e.g., line height, letter spacing, word spacing) without causing a loss of content or functionality.\   
 Designer, Developer  
 
 ### WCAG2.2 AA
 
 2.2 AA includes all previous criteria plus the following criteria.  
 
-Focus Not Obscured (Minimum) ([2.4.11](https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum.html))<br/>   
-When an element receives focus, the focus / focused element is not entirely hidden or blocked.<br/>   
+Focus Not Obscured (Minimum) ([2.4.11](https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum.html))\  
+When an element receives focus, the focus / focused element is not entirely hidden or blocked.\   
 Designer  
 
-Target Size (Minimum) ([2.5.8](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html))<br/>   
-Make the target size for interactive elements at least 24 by 24 CSS pixels.<br/>   
+Target Size (Minimum) ([2.5.8](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html))\   
+Make the target size for interactive elements at least 24 by 24 CSS pixels.\   
 Designer  
 
 ## Tests and Criteria
