@@ -213,11 +213,11 @@ Color is not the only visual way of conveying information.<br/>
 Designer, Content Editor
 
 Contrast (Minimum) ([1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html))<br/>   
-Text or images of text should stand out against a background by meeting a color contrast ratio of 4.5:1. For large text, the ratio is 3:1.v 
+Text or images of text should stand out against a background by meeting a color contrast ratio of 4.5:1. For large text, the ratio is 3:1.<br/> 
 Designer
 
 Resize Text ([1.4.4](https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html))<br/> 
-All text can be resized up to 200% without negatively affecting the ability to read content or use functions.v 
+All text can be resized up to 200% without negatively affecting the ability to read content or use functions.<br/>  
 Designer, Developper
 
 Images of Text ([1.4.5](https://www.w3.org/WAI/WCAG21/Understanding/images-of-text))<br/>   
