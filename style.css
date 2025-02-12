@@ -1,4 +1,4 @@
-/* * Html Email Skeleton Editor * Version:1.0;
+/* * WCAG for email * Version:1.0;
 * Author : Matthieu Solente */
 html {
     -webkit-box-sizing: border-box;
@@ -35,7 +35,7 @@ html {
   }
   
   a[hreflang]:after {
-    color: #999;
+    color: #111;
     vertical-align: super;
     font-size: 50%;
   }
@@ -402,7 +402,7 @@ html {
   h1 {
     font-size: 1.5em;
     margin: 1em 0;
-    color: #000;
+    color: #111;
   
   }
   
@@ -469,7 +469,7 @@ html {
   }
   
   header {
-    box-shadow: 1px 1px 10px 1px rgba(195, 195, 195, .3)
+    box-shadow: 1px -1px 5px 0px rgba(195, 195, 195, .3);
   }
   
   .cc-main-title {
@@ -528,7 +528,7 @@ html {
   }
   
   #criteria-container a {
-    color: #000000;
+    color: #111111;
     text-decoration: none;
     line-height: 1.5em;
     border-bottom: 1px solid #000000;
@@ -548,7 +548,7 @@ html {
     top: 0;
   }
   @media (min-width: 48em) {
-    .fr-sidemenu--sticky-full-height .fr-sidemenu__inner {
+    .cc-sidemenu--sticky-full-height .cc-sidemenu__inner {
         height: 100%;
         overflow: auto;
         padding-top: .5rem;
@@ -564,8 +564,8 @@ html {
   }
   
   @media (min-width: 48em) {
-    .fr-sidemenu__inner {
-        box-shadow: 5px 0px 1px 0px rgba(195, 195, 195, .3)
+    .cc-sidemenu__inner {
+        box-shadow: 2px 0px 0px -1px rgba(195, 195, 195, .3);
         padding: 0 2rem 0 .25rem;
     }
 }
@@ -573,9 +573,9 @@ html {
   .cc-sidemenu__item {
     position: relative;
   }
-  .cc-sidemenu__item::hover,
-  .cc-sidemenu__item::active,
-  .cc-sidemenu__item::focus{
+  .cc-sidemenu__item:hover,
+  .cc-sidemenu__item:active,
+  .cc-sidemenu__item:focus{
     background-color:#f5f5fe !important;
   }
 
