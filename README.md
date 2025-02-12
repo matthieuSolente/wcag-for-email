@@ -4,11 +4,11 @@
 
 Here is a clear and concise chronology that outlines the origins of digital accessibility and provides an understanding of its development over time.
 
-The World Wide Web Consortium (W3C) is an international non-profit organization focused on the public interest. It brings together member organizations, full-time staff, and the public to collaboratively develop web standards.
+The **World Wide Web Consortium** (W3C) is an international non-profit organization focused on the public interest. It brings together member organizations, full-time staff, and the public to collaboratively develop web standards.
 
-The Web Accessibility Initiative (WAI) is a crucial part of W3C's mission to benefit society. It develops strategies, standards, and resources to ensure the web is accessible to people with disabilities.
+The **Web Accessibility Initiative** (WAI) is a crucial part of W3C's mission to benefit society. It develops strategies, standards, and resources to ensure the web is accessible to people with disabilities.
 
-The Web Content Accessibility Guidelines 1.0 (WCAG) were published as a W3C Recommendation on May 5, 1999.
+The **Web Content Accessibility Guidelines** 1.0 (WCAG) were published as a W3C Recommendation on May 5, 1999.
 
 Since then, digital accessibility has become an integral part of the web. The WCAG have evolved to their latest version (2.2) and are expected to continue evolving. Most countries, with Western nations leading the way, driven by a strong inclusivity movement, have developed their own digital accessibility policies, all based on the WCAG guidelines.
 
@@ -20,11 +20,11 @@ Since then, digital accessibility has become an integral part of the web. The WC
 
 ## 1999 WCAG 1.0
 
-In May 1999, the Web Content Accessibility Guidelines (WCAG) 1.0 were established. The first step in establishing guidelines for web accessibility, WCAG 1.0 focused primarily on HTML. This edition of WCAG included the conformance levels we still know today: A, AA, and AAA.
+In May 1999, the **Web Content Accessibility Guidelines (WCAG) 1.0** were established. The first step in establishing guidelines for web accessibility, WCAG 1.0, focused primarily on HTML. This edition of WCAG included the conformance levels we still know today: A, AA, and AAA.
 
 From the perspective of an entire website or web page, conformance to Level A would mean meeting only the success criteria for Level A, while conformance to Level AAA would mean meeting all of the success criteria: A, AA, and AAA, making AAA the most comprehensive.
 
-The Web Content Accessibility Guidelines 1.0 version 1.0 includes 14 guidelines, the first 11 of which aim to ensure elegant transformation of content in different user contexts
+The Web Content Accessibility Guidelines 1.0 includes 14 guidelines, the first 11 of which aim to ensure elegant transformation of content in different user contexts
 
 These 14 guidelines were divided into three priority levels:
 
@@ -63,7 +63,7 @@ WCAG 1.0 has 14 guidelines, the first 11 of which are aimed at ensuring that con
 
 ## 2008 WCAG 2.0
 
-WCAG 2.0 also takes a more rigorous thematic approach by structuring 12 core guidelines under **4 core principles**: POUR.
+**WCAG 2.0** also takes a more rigorous thematic approach by structuring **12 core guidelines** under **4 core principles**: POUR.
 
 POUR stands for **Perceivable**, **Operable**, **Understandable**, and **Robust**.
 
@@ -73,11 +73,11 @@ Like WCAG 1.0, this version of the W3C’s web accessibility guidelines categori
 
 ## 2018 WCAG 2.1
 
-In June 2028, WCAG 2.1 was released. Rather than a complete overhaul as was seen in the transition from version 1.0 to version 2.0, WCAG 2.1 added success criteria to the existing 2.0 guidelines. This addition of new rules—rather than re-establishing old rules—is a testament to the careful crafting of WCAG 2.0. Many of the new rules in WCAG 2.1 remove accessibility barriers that have become apparent as mobile web browsing has become more popular.
+In June 2028, **WCAG 2.1** was released. Rather than a complete overhaul as was seen in the transition from version 1.0 to version 2.0, WCAG 2.1 added success criteria to the existing 2.0 guidelines. This addition of new rules—rather than re-establishing old rules—is a testament to the careful crafting of WCAG 2.0. Many of the new rules in WCAG 2.1 remove accessibility barriers that have become apparent as mobile web browsing has become more popular.
 
 ## 2023 WCAG 2.2
 
-In August 2023, WCAG 2.2 is published. Again an extension of the existing standards, the WCAG 2.2 working draft currently includes new success criteria and implements a change to an existing success criterion (2.4.7: Focus Visible will move from conformance level AA to level A).
+In August 2023, **WCAG 2.2** is published. Again an extension of the existing standards, the WCAG 2.2 working draft currently includes new success criteria and implements a change to an existing success criterion (2.4.7: Focus Visible will move from conformance level AA to level A).
 
 ## Summary of Web Content Accessibility Guidelines (WCAG) 2.1 and 2.2.
 
@@ -322,7 +322,7 @@ The "Tests and Criteria" page is simply **the most comprehensive and clear summa
 
 The **logical classification** and **enumeration of criteria** make it easier to identify key points of attention when analyzing an email or a web page. The **descriptions of the tests** to be performed for each criterion provide valuable assistance, making it **easier to understand** and remember the compliance criteria.
 
-My page is therefore an **exact replica of the RGAA criteria and tests**, with all the credit going to the official bodies. My role was to select only the **criteria strictly applicable to emails**, omitting everything else. I've translated all the texts into English, to share it with as many people as possible.
+My page is therefore an **replica of the RGAA criteria and tests**, with all the credit going to the official bodies. My role was to select only the **criteria strictly applicable to emails**, omitting everything else. I've translated all the texts into English, to share it with as many people as possible.
 
 I kept the same layout by extracting the code from the official website (like a fork), then removed all the JavaScript and simply replaced the accordions with "details" HTML tags.
 
