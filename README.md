@@ -1,5 +1,7 @@
 # Web Content Accessibility Guidelines (WCAG) For Email
 
+Check my [WCAG checklist for email](https://matthieusolente.github.io/wcag-for-email/)
+
 ## Chronology
 
 Here is a clear and concise chronology that outlines the origins of digital accessibility and provides an understanding of its development over time.
@@ -326,6 +328,7 @@ My page is therefore an **replica of the RGAA criteria and tests**, with all the
 
 I kept the same layout by extracting the code from the official website (like a fork), then removed all the JavaScript and simply replaced the accordions with "details" HTML tags.
 
+Check my [WCAG checklist for email](https://matthieusolente.github.io/wcag-for-email/)
 
 It is thus a **concrete and functional checklist**, designed to support every email developer or marketer when creating email campaigns.
 
