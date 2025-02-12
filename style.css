@@ -1,4 +1,4 @@
-/* * Html Email Skeleton Editor * Version:1.0;
+/* * WCAG for email * Version:1.0;
 * Author : Matthieu Solente */
 html {
     -webkit-box-sizing: border-box;
@@ -618,6 +618,7 @@ html {
   .anchor h3 {
     display: flex;
     margin: 1.5rem 0 !important;
+    align-items: baseline;
   }
   
   @media (min-width: 48em) {
@@ -707,6 +708,7 @@ html {
   li.criterion div.test {
     display: flex;
     justify-content: flex-start;
+    align-items: baseline;
   }
   
   li.criterion div.title {
