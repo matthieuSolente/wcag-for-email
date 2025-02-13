@@ -6141,14 +6141,14 @@
                                 </div>
                                 <div class="title">
                                 
-                                <p>When providing a phone number link, such as lt;a href=&quot;tel:01424546&quot;&gt;01 42 45 46&lt;/a&gt;, without an aria-label, the screen reader will read the link text aloud. Depending on the format of the phone number you provide, this may be more or less comprehensible.</p>
+                                <p>When providing a phone number link, such as &lt;a href=&quot;tel:01424546&quot;&gt;01 42 45 46&lt;/a&gt;, without an aria-label, the screen reader will read the link text aloud. Depending on the format of the phone number you provide, this may be more or less comprehensible.</p>
                                 <p>Without spaces, the screen reader will read the digits one by one without pausing. If any punctuation is used (comma, period, hyphen) without spaces, the screen reader will read the digits individually or in groups of two or three, including the punctuation.</p>
                                 <p>To address this issue, it is recommended to use an aria-label to ensure proper reading.</p>
                                 <p>Punctuation without space</p>
-                                <p>With an aria-label="01,42,45,46" or an aria-label="01.42.45.46", the screen reader will read the numbers in groups of two, with pauses, but it will also read the comma or period.</p>
+                                <p>With an <code>aria-label="01,42,45,46"</code> or an <code>aria-label="01.42.45.46"</code>, the screen reader will read the numbers in groups of two, with pauses, but it will also read the comma or period.</p>
                                 <p>Punctuation with space</p>
-                                <p>With an aria-label="01, 42, 45, 46" or an aria-label="01. 42. 45. 46", the screen reader will read the numbers in groups of two, with pauses, but will not read the punctuation.</p>
-                                <p>After several tests with NVDA, it has been determined that the latter option is the most intelligible audibly. Therefore, my preference is to use aria-label="01. 42. 45. 46."</p>
+                                <p>With an <code>aria-label="01, 42, 45, 46"</code> or <code>an aria-label="01. 42. 45. 46"</code>, the screen reader will read the numbers in groups of two, with pauses, but will not read the punctuation.</p>
+                                <p>After several tests with NVDA, it has been determined that the latter option is the most intelligible audibly. Therefore, my preference is to use <code>aria-label="01. 42. 45. 46"</code></p>
 
                                  
                                 </div>
