@@ -332,7 +332,7 @@ Check my [WCAG checklist for email](https://matthieusolente.github.io/wcag-for-e
 
 It is thus a **concrete and functional checklist**, designed to support every email developer or marketer when creating email campaigns.
 
-For the "recommendations" section, I relied heavily on online sources, all cited in the following paragraph, on my own knowledge, and on exchanges with many email developers, notably within the "email geek slack" space.
+For the "Best practises" section, I relied heavily on online sources, all cited in the following paragraph, on my own little knowledge, and on exchanges with many email developers, notably within the "email geek slack" space.
 
 Any contribution or correction to this work on accessibility is truly welcome.
 
