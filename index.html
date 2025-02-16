@@ -2261,20 +2261,20 @@
                                 <p>There is a special case management for test 6.1.5 when:</p>
                                 <ul>
                                   <li>Punctuation and capital letters are present in the <a hreflang="fr" href="https://accessibilite.numerique.gouv.fr/methode/glossaire/#intitule-visible">visible label</a>: they can be ignored in the accessible name without consequence;</li>
-                                  <li>The text of the <a hreflang="fr" href="https://accessibilite.numerique.gouv.fr/methode/glossaire/#intitule-visible">visible label</a> serves as a symbol: the text should not be interpreted literally in the accessible name. The name should express the function conveyed by the symbol (for example, “B" in a text editor should have the accessible name “Bold", the “&gt;" symbol, depending on the context, could mean “Next" or “Play video"). However, mathematical symbols are an exception (see the note below).</li>
+                                  <li>The text of the <a hreflang="fr" href="https://accessibilite.numerique.gouv.fr/methode/glossaire/#intitule-visible">visible label</a> serves as a symbol: the text should not be interpreted literally in the accessible name. The name should express the function conveyed by the symbol (for example, "B" in a text editor should have the accessible name "Bold", the "&gt;" symbol, depending on the context, could mean "Next" or "Play video"). However, mathematical symbols are an exception (see the note below).</li>
                                 </ul>
-                                <p>Note: If the visible label represents a mathematical expression, the mathematical symbols may be used literally as the accessible name (e.g., “A&gt;B"). It is up to the user to interpret the expression according to their knowledge of how their voice input software works (“A greater than B" or “A superior to B").</p>
+                                <p>Note: If the visible label represents a mathematical expression, the mathematical symbols may be used literally as the accessible name (e.g., "A&gt;B"). It is up to the user to interpret the expression according to their knowledge of how their voice input software works ("A greater than B" or "A superior to B").</p>
                                 <h4>Technical Notes</h4>
                                 <p>When the visible label is supplemented by another expression in the accessible name:</p>
                                 <ul>
                                   <li>WCAG emphasizes placing the visible label at the beginning of the accessible name, though it does not require exclusivity of this placement;</li>
                                   <li>WCAG considers it a failure if the visible label’s character string does not match exactly within the accessible name.</li>
                                 </ul>
-                                <p>For example, considering the visible label “Order now” supplemented in the accessible name by the expression “product X”, the following cases may occur:</p>
+                                <p>For example, considering the visible label "Order now” supplemented in the accessible name by the expression "product X”, the following cases may occur:</p>
                                 <ul>
-                                  <li>“Order now product X” is valid (best practice);</li>
-                                  <li>“Product X: order now” is valid;</li>
-                                  <li>“Order product X now” is invalid.</li>
+                                  <li>"Order now product X” is valid (best practice);</li>
+                                  <li>"Product X: order now” is valid;</li>
+                                  <li>"Order product X now” is invalid.</li>
                                 </ul>
                                 <h4>References</h4>
                                 <h5><abbr lang="en" title="Web content accessibility guidelines">WCAG</abbr> 2.1</h5>
@@ -3319,8 +3319,8 @@
                                               <li>
                                                 For each heading identified in test 9.1.1, check that:
                                                 <ul>
-                                                  <li>Either it is structured using a <code>&lt;hx&gt;</code> tag (“x” representing a numeric value between 1 and 6);</li>
-                                                  <li>Or it is structured using a tag with a WAI-ARIA attribute <code>role=&quot;heading&quot;</code> and a WAI-ARIA attribute <code>aria-level=x</code> (“x” representing a numeric value).</li>
+                                                  <li>Either it is structured using a <code>&lt;hx&gt;</code> tag ("x” representing a numeric value between 1 and 6);</li>
+                                                  <li>Or it is structured using a tag with a WAI-ARIA attribute <code>role=&quot;heading&quot;</code> and a WAI-ARIA attribute <code>aria-level=x</code> ("x” representing a numeric value).</li>
                                                 </ul>
                                               </li>
                                               <li>If this is the case for each heading, <strong>the test is passed</strong>.</li>
@@ -5647,9 +5647,9 @@
                                   <h4>14.1.1</h4>
                                 </div>
                                 <div class="title">
-                                  <p>Refrain from including lengthy URLs within the main content of your email.</p>
-                                  <p>Rather, opt for meaningful link text that clearly conveys the destination or purpose of the link. This enhances readability and keeps the email visually tidy for all recipients.</p>
-                                  <p>Example: Instead of saying, “Check out this umbrella on Amazon: http://www.amazon.com/super-umbrella-with-stripes-138411293-product-display," use “check out this umbrella on Amazon” and embed the link under “umbrella on Amazon."</p>
+                                     <p>Refrain from including lengthy URLs within the main content of your email.</p> 
+                                     <p>Rather, opt for meaningful link text that clearly conveys the destination or purpose of the link. This enhances readability and keeps the email visually tidy for all recipients.</p> 
+                                     <p>Example: Instead of saying, "Check out this on Google: http://www.google.com" use "check out this on Google" and embed the link under "Google".</p>
                                 </div>
                               </div>
                             </div>
@@ -5680,16 +5680,18 @@
                                 </div>
                                 <div class="title">
                                   <p>Emojis and Emoticons</p>
-                                  <p>Use emojis sparingly and do not replace them with words. Avoid using text-based emoticons. Instead, use plain language or emojis to keep the message clear for all users, including those using screen readers. Example: instead of "Great job! :)", use "Great job! 😊"</p>
-                                  <p>It goes without saying, but no matter the cleverness or emotion an emoji adds to your content, it should never replace words – it’s only an enhancement.</p>
-                                  <p>Using only an emoji (and no text) increases the cognitive load for people using assistive technologies – because they rely solely on the alt text read to them to interpret the emoji. Misunderstandings can also lead to people feeling excluded rather than included, which goes against the goal of accessibility.</p>
-                                  <p>For accessibility, emojis should be placed at the end of your message, social caption, or sentence.</p>
-                                  <p>Emojis should only be used to ‘add’ to the context of your text – never as a replacement.</p>
-                                  <p>Here are <a href="https://www.litmus.com/blog/special-characters-emojis-line-breaks-more-tricks-for-optimizing-your-emails-for-screen-readers">two ways to correctly use emojis for screen readers</a>:</p>
-                                  <p>Adding Alt :</p>
-                                  <p><code>We &lt;img src=&quot;emoticon-heart.png&quot; width=&quot;22&quot; height=&quot;22&quot; alt=&quot;love&quot; style=&quot;display: inline; margin: 0; padding: 0; vertical-align: -5px;&quot; border=&quot;0&quot; /&gt; email!</code></p>
-                                  <p>Or using Wai-Aria :</p>
-                                  <p><code>We &lt;span role=&quot;img&quot; aria-label=&quot;love&quot;&gt;&#x2764;&#xfe0f;&lt;/span&gt; email!</code></p>
+                                    <p>Use emojis sparingly. Avoid using text-based emoticons. Instead, use plain language or emojis to keep the message clear for all users, including those using screen readers. Example: instead of "Great job! :)", use "Great job! 😊"</p>
+                                  
+                                
+                                    <p>Using only an emoji (and no text) increases the cognitive load for people using assistive technologies – because they rely solely on the alt text read to them to interpret the emoji. Misunderstandings can also lead to people feeling excluded, which goes against the goal of accessibility.</p>
+                                    <p>For accessibility, emojis should be placed at the end of your message, social caption, or sentence.</p>
+                                    <p>Avoid long emoji strings</p>
+                                    <p>Emojis should only be used to add to the context of your text – never as a replacement.</p>
+                                    <p>Here are two ways to correctly use emojis for screen readers:</p>
+                                    <p>Adding Alt :</p>
+                                    <p><code>We &lt;img src=&quot;emoticon-heart.png&quot; width=&quot;22&quot; height=&quot;22&quot; alt=&quot;love&quot; style=&quot;display: inline; margin: 0; padding: 0; vertical-align: -5px;&quot; border=&quot;0&quot; /&gt; email!</code></p>
+                                    <p>Or using Wai-Aria :</p>
+                                    <p><code>We &lt;span role=&quot;img&quot; aria-label=&quot;love&quot;&gt;&#x2764;&#xfe0f;&lt;/span&gt; email!</code></p>
                                 </div>
                               </div>
                             </div>
@@ -5722,7 +5724,7 @@
                                 <div class="title">
                                   <p>Marking Any Links to PDFs</p>
                                   <p>Label links to PDF files as PDFs. This informs users what to expect when clicking on the link.</p>
-                                  <p>Example: Instead of “Download the file," use “Download the PDF file" or “Download File (PDF)".</p>
+                                  <p>Example: Instead of "Download the file," use "Download the PDF file" or "Download File (PDF)".</p>
                                 </div>
                               </div>
                             </div>
@@ -5756,7 +5758,7 @@
                                 <div class="title">
                                   <p>Avoid Underlining Non-Link Text</p>
                                   <p>Refrain from <a href="https://a11y-101.com/development/underlined-links">underlining text that isn't a hyperlink</a> to prevent confusing users. Underlines should be reserved exclusively for links, making them easily recognizable.</p>
-                                  <p>Example: Use underlines solely to highlight clickable links.
+                                  <p>Use underlines solely to highlight clickable links.
                                   </p>
                                 </div>
                               </div>
@@ -5785,17 +5787,18 @@
                             <div>
                               <div class="test">
                                 <div class="anchor">
-                                  <h4>14.6.1</h4>
+                                  <h4>14.5.1</h4>
                                 </div>
                                 <div class="title">
-                                  <p>Text and Fonts</p>
-                                  <p>Choose a simple, legible font for emails. Avoid complex or hard-to-read fonts, and ensure the text size is at least 12 points. Align the text to the left.</p>
-                                  <p>Example: Instead of using a decorative font, opt for a standard font like Arial or Times New Roman.</p>
+                                   <p>Text and Fonts</p>
+                                    <p>Choose a simple, legible font for emails. Avoid complex or hard-to-read fonts, and ensure the text size is at least 12 points. Align the text to the left.</p>
+                                    <p>It is usually advised to steer clear of serif fonts (those with small lines at the ends of letters) as they can hinder readability for people with dyslexia by making it more difficult to distinguish individual letters.</p>
+                                    <p>Opt for sans-serif font, and a standard one like Arial or Times New Roman.</p>
                                 </div>
                               </div>
                               <div class="test">
                                 <div class="anchor">
-                                  <h4>14.6.2</h4>
+                                  <h4>14.5.2</h4>
                                 </div>
                                 <div class="title">
                                   <p>Centering Text</p>
@@ -5804,27 +5807,19 @@
                               </div>
                               <div class="test">
                                 <div class="anchor">
-                                  <h4>14.6.3</h4>
+                                  <h4>14.5.3</h4>
                                 </div>
                                 <div class="title">
                                   <p>Justifying Text</p>
                                   <p>Justified text is spaced so that both the left and right edges of the paragraph are aligned with the page margins, creating a block-like appearance.</p>
                                   <p>The way text is laid out affects its readability. Justifying text or centering it can make it harder for some people to follow the text from line to line, especially those with tracking issues.</p>
                                   <p>This becomes a significant issue for users with assistive technologies (AT). Many people with vision impairments rely on screen magnifiers or zoom in on web content. If the text is justified, these users may encounter large gaps between words or words that run together, creating confusion.</p>
-                                  <p>While center-justified text is less problematic than fully justified text, it can still be challenging to read, particularly when magnified.</p>
-                                  <p>Here are some key rules to consider for text layout:</p>
-                                  <ul>
-                                    <li>Avoid fully justifying text.</li>
-                                    <li>Avoid center justification (“centering" text) for text blocks longer than 1-2 lines.</li>
-                                    <li>If center justification is necessary, provide users with an option to change the alignment.</li>
-                                    <li>Ensure that content remains functional and intact if users adjust the text justification.</li>
-                                  </ul>
-                                  <p>By following these practices, you’re aligning with WCAG Success Criterion 1.4.8, “Visual Presentation,” which also covers guidelines for line spacing and text-block width.</p>
+                                  
                                 </div>
                               </div>
                               <div class="test">
                                 <div class="anchor">
-                                  <h4>14.6.4</h4>
+                                  <h4>14.5.4</h4>
                                 </div>
                                 <div class="title">
                                   <p>Avoid Black Text on White Background</p>
@@ -5834,7 +5829,7 @@
                               </div>
                               <div class="test">
                                 <div class="anchor">
-                                  <h4>14.6.5</h4>
+                                  <h4>14.5.5</h4>
                                 </div>
                                 <div class="title">
                                   <p>Heading Style</p>
@@ -5848,7 +5843,7 @@
                               </div>
                               <div class="test">
                                 <div class="anchor">
-                                  <h4>14.6.6</h4>
+                                  <h4>14.5.6</h4>
                                 </div>
                                 <div class="title">
                                   <p>Avoid Using All Caps</p>
@@ -5886,12 +5881,12 @@
                             <div>
                               <div class="test">
                                 <div class="anchor">
-                                  <h4>14.7.1</h4>
+                                  <h4>14.6.1</h4>
                                 </div>
                                 <div class="title">
                                   <p>Use Descriptive Anchor Link Text</p>
                                   <p>Write descriptive text for links that clearly indicate where the link goes. This helps all users, especially those using screen readers, to understand the link’s purpose.</p>
-                                  <p>Example: Instead of “Click here,” use a descriptive link text that explains the purpose. For example, link to the last part of this sentence: “Read more about website accessibility best practices.”</p>
+                                  <p>Example: Instead of "Click here,” use a descriptive link text that explains the purpose. For example, link to the last part of this sentence: "Read more about website accessibility best practices.”</p>
                                   <p>If the editorial part cannot be edited, text can be displayed only for screen readers, as follows:</p>
                                   <p><code>&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;block-link&quot;&gt;En Read more &lt;span class=&quot;sr-only&quot;&gt;sur &#x00ab;&#x00a0; on [subject]&#x00a0;&#x00bb;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</code></p>
                                   <p>We can hide that text with:</p>
@@ -5935,7 +5930,7 @@
                                 <div class="title">
                                   <p>Whitespace and Layout</p>
                                   <p>Use paragraph spacing and layout tools to create a clean presentation. Avoid using tabs, multiple spaces, or carriage returns to create whitespace.</p>
-                                  <p>Example: Use appropriate line spacing and margins to separate sections of text.</p>
+                                  <p>Use appropriate line spacing and margins to separate sections of text.</p>
                                 </div>
                               </div>
                               <div class="test">
@@ -5962,6 +5957,7 @@
                                   <p>A solution would be to wrap the line you want to break in a <code>&lt;span&gt;</code> with <code>style="display:block;"</code> applied to it, which breaks it into a new line.</p>
                                   <p>Then, you can add a responsive class="inline" to it so the copy flows inline again once it hits below your mobile breakpoint. Then add an &nbsp; before the <code>&lt;span&gt;</code> to force a separation between the words for the screen reader, and an optional <code>&amp;nbsp;</code> at the end of the copy to prevent orphans. See code examples below:</p>
                                   <p><code>@media only screen and (max-width: 640px) {<br/>.inline { display:inline !important; }<br/>}</code></p>
+                                   <p>On NVDA, even without br, if the title is spread over several lines, the title level (h1,h2 etc) will be read as many times as there are lines.</p>
                                 </div>
                               </div>
                             </div>
@@ -5993,7 +5989,7 @@
                                 </div>
                                 <div class="title">
                                   <p>Underline</p>
-                                  <p>The basic visual markup of a link is the underline. Underlining a link makes it stand out from the rest of the text. That's good. But there’s a problem with the underline. Every letter has a baseline. Think of it as the line the letter sits on. Some letters - like g, p, q, y, j - sit on that line and “let their feet dangle". By underlining a word you put a line over these parts of the letters and it becomes difficult to read them.</p>
+                                  <p>The basic visual markup of a link is the underline. Underlining a link makes it stand out from the rest of the text. That's good. But there’s a problem with the underline. Every letter has a baseline. Think of it as the line the letter sits on. Some letters - like g, p, q, y, j - sit on that line and "let their feet dangle". By underlining a word you put a line over these parts of the letters and it becomes difficult to read them.</p>
                                   <p>Instead of text-decoration:underline, use <a href="https://a11y-101.com/development/underlined-links">border-bottom</a>.</p>
                                   <p><code>a.border {<br/>line-height: 1.5em;<br/>text-decoration: none;<br/>border-bottom: 1px solid blue;<br/>}</code></p>
                                   <p><code>text-decoration-skip</code> is still an experimental technology.</p>
@@ -6028,11 +6024,12 @@
                                   <h4>14.9.1</h4>
                                 </div>
                                 <div class="title">
-                                  <p>The rendering of lists may vary from one box to another, so a good practice is to replicate the cell code directly in the <code>&lt;ul&gt;&lt;/ul&gt;</code> or <code>&lt;ol&gt;&lt;/ol&gt; tag</code></p>
+                                
                                   <p>Regarding list margins: Outlook transforms any list into a paragraph, as soon as you touch the lateral margin (margin-left). The rendering will be that of a list, but in the code and on Outlook, the list will be made up of paragraphs, so we lose accessibility.</p>
                                   <p>In the <code>ul</code> or <code>li</code> tags, you must therefore indicate a vertical margin only. The distance between the text and the bullet point can be modified using the padding or text-indent properties.</p>
+                                  <p>We can also move the list horizontally by encapsulating the list in a div, to which we apply a margin.</p>
                                   <p>In some cases, especially for design reasons, you can create a fake list using a paragraph.</p>
-                                  <p>If it's just a matter of visual rendering, we can hide the bullet points from screen readers with, you then hide the bullet using the aria-hidden attribute. This is cosmetic, since not all screen readers interpret aria-hidden, but it's better than nothing.</p>
+                                  <p>If it's just a matter of visual rendering, we can hide the bullet points from screen readers using the aria-hidden attribute. This is cosmetic, since not all screen readers interpret aria-hidden, but it's better than nothing.</p>
                                   <p><code>&lt;p style=&quot;margin:0&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;&amp;bull;&amp;nbsp;&lt;/span&gt;blabla&lt;/p&gt;</code></p>
                                   <p>When using the aria <code>role="list"</code> to simulate a list that cannot be done with a semantic list (ul or ol), one possibility is to use the <code>list</code> role on a cell, and <code>list-item</code> on the child elements.</p>
                                   <p><code>td align=&quot;center&quot; valign=&quot;top&quot; style=&quot;text-align:left;font-family: Arial,sans-serif; font-size:14px;mso-line-height-rule: exactly;line-height: 21px;color:#000000;padding:10px;background-color:#ffffff&quot; role=&quot;list&quot;&gt;<br/>    &lt;p style=&quot;margin:0 0 0 17px;display: list-item;list-style: disc;&quot; role=&quot;listitem&quot;&gt;<br/>      &lt;!--[if mso]&gt;&amp;bull;&amp;nbsp;&lt;![endif]--&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <br/>    &lt;/p&gt;<br/></code></p>
