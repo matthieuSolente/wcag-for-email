@@ -453,6 +453,12 @@ html {
     margin: 1.5rem 0;
   }
   
+  .italic{
+    font-style:italic;
+  }
+  .bold{
+    font-weight:bold
+  }
   .container {
     margin-left: auto;
     margin-right: auto;
