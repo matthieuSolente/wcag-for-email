@@ -6135,9 +6135,9 @@
                                     <h4>14.11.1</h4>
                                   </div>
                                   <div class="title">
-                                    <p>On a majority of modern <span class="bold">email clients (hotmail, gmail etc.)</span>, an aria-label on a link allows you to add additional text:</p>
+                                    <p>On a majority of modern <span class="bold">email clients (hotmail, gmail etc.)</span>, an aria-label on a link allows you to add additional text for screen readers :</p>
                                     <p><code>&lt;a href=&quot;https://google.com&quot; aria-label=&quot;read more about this page&quot;&gt;read more&lt;/a&gt;</code></p>
-                                    <p>The screen reader (Narrator, NVDA on Chrome, PC) will read "read more about this page". It will read the aria-label, ignoring the link text.</p>
+                                    <p>The screen reader (Narrator, NVDA on Chrome on Windows) will read "read more about this page". It will read the aria-label, ignoring the link text.</p>
                                     <p>A <a href="https://www.goodemailcode.com/email-accessibility/visually-hidden-text">hidden text HTML version</a> also gives the same result:</p>
                                     <p><code>&lt;a href=&quot;https://google.com&quot;&amp;gt;read more&lt;span style=&quot;display:inline-block; max-height:0; max-width:0;mso-font-width:0%;mso-style-textfill-type: none; white-space: nowrap;&quot;&gt;&lt;span style=&quot;max-height:1px; max-width:1px; display:inline-block; overflow:hidden; font-size:1px;color:rgba(0,0,0,0);text-indent:9px;&quot;&gt;about this page&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;</code></p>
                                     <p>A detailed description of this technique can be found on <a href="https://www.goodemailcode.com/email-accessibility/visually-hidden-text">Mark's page</a>.</p>
@@ -6147,14 +6147,14 @@
                                     <p><code>&lt;a href=&quot;https://google.com&quot;&amp;gt;read more&lt;span style=&quot;height:0; width:0; font-size:0px;text-decoration: none;mso-font-width:0%;mso-style-textfill-type: none;&quot;&gt;about this page&lt;/span&gt;&lt;/a&gt;
                                       </code>
                                     </p>
-                                    <p><span class="bold">However, it is important to note one thing about this code.</span>: Upon receipt, Outlook transforms:</p>
+                                    <p><span class="bold">However, it is important to note one thing about this code</span>: Upon receipt, Outlook transforms:</p>
                                     <p><code>height:0; width:0; font-size:0px;mso-font-width:0%;mso-style-textfill-type: none;</code></p>
                                     <p>into:</p>
                                     <p><code>font-size:1.0pt;mso-bidi-font-size:24.0pt;mso-fareast-font-family:"Times New Roman";color:black;mso-color-alt:windowtext;mso-font-width:1%;mso-style-textfill-type:none;mso-style-textfill-fill-gradientfill-shadetype:linear;mso-style-textfill-fill-gradientfill-shade-linearshade-angle:0;mso-style-textfill-fill-gradientfill-shade-linearshade-fscaled:no</code></p>
                                     <p>Whether you use <code>font-size:1px</code>, <code>font-size:0</code>, <code>font-size:1pt</code>, or <code>mso-ansi-font-size:0</code>, <code>mso-ansi-font-size:1px</code>, or <code>mso-ansi-font-size:1pt</code>, Outlook will convert your code to <code>font-size:1.0pt</code>. This seems to be the minimum size accepted.</p>
                                     <p>It is also important to note that the <code>width</code> and <code>height</code> properties are ignored by Outlook when applied to a span element. As a result, these properties can be omitted.</p>
-                                    <p>So we can shorten our code for screen readers like so :</p>
-                                    <p><code> &lt;p&gt;&lt;a href=&quot;https://google.com&quot;  aria-label=&quot;read more about this page&quot;&gt;read more&lt;!--[if mso]&gt;&lt;span style=&quot;font-size:1.0pt;mso-font-width:1%;mso-style-textfill-type: none;&quot;&gt;about this page&lt;/span&gt;&lt;![endif]--&gt;&lt;/a&gt;&lt;/p&gt;</code></p>
+                                    <p>So for Outlook, we can shorten our code for screen readers like so :</p>
+                                    <p><code>font-size:1.0pt;mso-font-width:1%;mso-style-textfill-type: none;</code></p>
                                     <p>The rest of the mso-properties are automatically injected by Outlook, so there's no need to code them.</p>
                                     <p>The visual rendering will be exactly the same, and the screen reader on Outlook will read "read more about this page".</p>
                                     <p><span class="bold">Summary:</span></p>
@@ -6167,13 +6167,13 @@
                                         <br>
                                         Here, we use a small hack for Outlook, and a simple aria-label for all other email clients.
                                       </li>
-                                      <li>If you need to code a <span class="bold">rounded button</span> and take Outlook into account, you will code your button by surrounding it or <span class="bold">adding a VML component</span> (v:rect).<br>
+                                      <li>If you need to code a <span class="bold">rounded button</span> and take Outlook into account, you will code your button by surrounding it or <span class="bold">adding a VML component</span> (v:roundrect).<br>
                                         By default, in Outlook, your VML button will be inaccessible and not read by screen readers. So here we can use that same technique.<br>
                                         <code>
-                                        &lt;!--[if mso]&gt;<br/>                &lt;v:roundrect xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot; href=&quot;https://google.com&quot; style=&quot;height:40px;v-text-anchor:middle;width:200px;&quot; arcsize=&quot;10%&quot; strokecolor=&quot;#1e3650&quot; fillcolor=&quot;#556270&quot;&gt;&lt;center style=&quot;color:#ffffff;font-family:sans-serif;font-size:13px;font-weight:bold&quot;&gt;Read more&lt;/center&gt;&lt;/v:roundrect&gt;<br/>                &lt;a href=&quot;http://google.com&quot; style=&quot;font-size:1.0pt;mso-font-width:1%;mso-style-textfill-type: none;&quot;&gt;Read more about this page&lt;/a&gt;&lt;![endif]--&gt;&lt;a href=&quot;http://google.com&quot; style=&quot;background-color:#556270;border:1px solid #1e3650;border-radius:4px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:13px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:200px;-webkit-text-size-adjust:none;mso-hide:all;&quot; aria-label=&quot;read more about this page&quot;&gt;Read more&lt;/a&gt;<br/>&lt;/div&gt;<br/></code>
+                                        &lt;!--[if mso]&gt;<br/>                &lt;v:roundrect xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot; href=&quot;https://google.com&quot; style=&quot;height:40px;v-text-anchor:middle;width:200px;&quot; arcsize=&quot;10%&quot; strokecolor=&quot;#1e3650&quot; fillcolor=&quot;#556270&quot;&gt;&lt;center style=&quot;color:#ffffff;font-family:sans-serif;font-size:13px;font-weight:bold&quot;&gt;Read more&lt;/center&gt;&lt;/v:roundrect&gt;<br/>                &lt;a href=&quot;http://google.com&quot; style=&quot;font-size:1.0pt;mso-font-width:1%;mso-style-textfill-type: none;&quot;&gt;about this page&lt;/a&gt;&lt;![endif]--&gt;&lt;a href=&quot;http://google.com&quot; style=&quot;background-color:#556270;border:1px solid #1e3650;border-radius:4px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:13px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:200px;-webkit-text-size-adjust:none;mso-hide:all;&quot; aria-label=&quot;read more about this page&quot;&gt;Read more&lt;/a&gt;<br/>&lt;/div&gt;<br/></code>
                                       </li>
                                     </ol>
-                                    <p> Using this technique, your VML button will be fully accessible: it will pause briefly on the real VML button, then immediately proceed to the hidden link by reading "read more about this page". This invisible button will be clickable for screen reader users. In other email clients, the screen reader will read the normal HTML link, taking the aria-label into account: "read more about this page".
+                                    <p> Using this technique, your VML button will be fully accessible on Outlook: it will pause briefly on the real VML button, then immediately proceed to the hidden link by reading "read more about this page". This invisible button will be clickable for screen reader users. In other email clients, the screen reader will read the normal HTML link, taking the aria-label into account: "read more about this page".
                                     </p>
                                   </div>
                                 </div>
