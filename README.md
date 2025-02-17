@@ -185,7 +185,9 @@ In France, the **General Framework for Improving Accessibility RGAA - Version 4.
 
 Now that we have reviewed the history, foundations, various laws, and areas of application of digital accessibility, we can focus on **applying all of these WCAG guidelines to the world of emails**. Many articles on this subject exist, providing a general idea of what is applicable or not. However, many of them mix WCAG criteria with broader recommendations, which can lead to some confusion.
 
-Here is the **complete list of accessibility criteria** directly **derived from WCAG** and **applicable to emails**. Adhering to these criteria ensures full compliance with accessibility standards.
+We can also look at the [wcag2ict-22](https://www.w3.org/TR/wcag2ict-22/) which are the Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies. 
+
+So Below is a **list of accessibility criteria** directly **derived from WCAG** and **applicable to emails**. Adhering to these criteria ensures full compliance with accessibility standards.
 
 For this section, I have exclusively relied on the article by **Kris Rivenburgh** and extracted the criteria specifically related to emailing. Visit his page titled "[Email Accessibility Best Practices](https://accessible.org/email-accessibility/)" to learn more.
 
