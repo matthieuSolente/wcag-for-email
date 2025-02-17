@@ -654,7 +654,7 @@
                               </div>
                               <div class="annexes">
                                 <h4>Technical Note</h4>
-                                <p>The implementation of a WAI-ARIA attribute <code>role=&quot;group&quot;</code> or <code>role=&quot;figure&quot;</code> on the parent <code>&lt;figure&gt;</code> element is intended to compensate for the current lack of support for <code>&lt;figure&gt;</code> elements by assistive technologies. Using a <code>&lt;figcaption&gt;</code> element to associate a <a hreflang="fr" href="https://accessibilite.numerique.gouv.fr/methode/glossaire/#legende-d-image">caption</a> with an image requires, at a minimum, the use of a WAI-ARIA <code>aria-label</code> attribute on the parent <code>&lt;figure&gt;</code> element with content identical to the content of the <code>&lt;figcaption&gt;</code> element. To ensure optimal support, explicit association between the image’s <a hreflang="fr" href="https://accessibilite.numerique.gouv.fr/methode/glossaire/#alternative-textuelle-image">alternative text</a> and the <code>&lt;figcaption&gt;</code> content may also be made, for example:</p>
+                                <p>The implementation of a WAI-ARIA attribute <code>role=&quot;group&quot;</code> or <code>role=&quot;figure&quot;</code> on the parent <code>&lt;figure&gt;</code> element is intended to compensate for the current lack of support for <code>&lt;figure&gt;</code> elements by assistive technologies. Using a <code>&lt;figcaption&gt;</code> element to associate a <a hreflang="fr" href="https://accessibilite.numerique.gouv.fr/methode/glossaire/#legende-d-image">caption</a> with an image requires, at a minimum, the use of a WAI-ARIA <code>aria-label</code> attribute on the parent <code>&lt;figure&gt;</code> element with content identical to the content of the <code>&lt;figcaption&gt;</code> element. To ensure optimal support, explicit association between the image's <a hreflang="fr" href="https://accessibilite.numerique.gouv.fr/methode/glossaire/#alternative-textuelle-image">alternative text</a> and the <code>&lt;figcaption&gt;</code> content may also be made, for example:</p>
                                 <p><code>&lt;img src=&quot;image.png&quot; alt=&quot;Photo: sunset&quot; /&gt;&lt;figcaption&gt;Photo: credit xxx&lt;/figcaption&gt;</code></p>
                                 <p>The WAI-ARIA attributes <code>aria-labelledby</code> and <code>aria-describedby</code> cannot currently be used due to lack of support by assistive technologies.</p>
                                 <p>Note: Captioned images must also comply with criterion 1.1 and criterion 1.3 regarding images carrying information.</p>
@@ -2131,8 +2131,8 @@
                                   <div class="title">
                                     <p>Chaque <a hreflang="fr" href="https://accessibilite.numerique.gouv.fr/methode/glossaire/#lien-image">lien image</a> vérifie-t-il une de ces conditions (hors cas particuliers) ?&nbsp;</p>
                                     <ul>
-                                      <li>L’<a hreflang="fr" href="https://accessibilite.numerique.gouv.fr/methode/glossaire/#intitule-ou-nom-accessible-de-lien">intitulé de lien</a> seul permet d’en comprendre la fonction et la destination ;</li>
-                                      <li>L’<a hreflang="fr" href="https://accessibilite.numerique.gouv.fr/methode/glossaire/#intitule-ou-nom-accessible-de-lien">intitulé de lien</a> additionné au <a hreflang="fr" href="https://accessibilite.numerique.gouv.fr/methode/glossaire/#contexte-du-lien">contexte du lien</a> permet d’en comprendre la fonction et la destination.</li>
+                                      <li>L'<a hreflang="fr" href="https://accessibilite.numerique.gouv.fr/methode/glossaire/#intitule-ou-nom-accessible-de-lien">intitulé de lien</a> seul permet d'en comprendre la fonction et la destination ;</li>
+                                      <li>L'<a hreflang="fr" href="https://accessibilite.numerique.gouv.fr/methode/glossaire/#intitule-ou-nom-accessible-de-lien">intitulé de lien</a> additionné au <a hreflang="fr" href="https://accessibilite.numerique.gouv.fr/methode/glossaire/#contexte-du-lien">contexte du lien</a> permet d'en comprendre la fonction et la destination.</li>
                                     </ul>
                                     <section class="cc-accordion">
                                       <details>
@@ -2178,7 +2178,7 @@
                                               <li>
                                                 For each composite link, verify that what allows understanding of its function and destination is:
                                                 <ul>
-                                                  <li>Either the link title alone, provided by the combination of text content and the image’s alternative text;</li>
+                                                  <li>Either the link title alone, provided by the combination of text content and the image's alternative text;</li>
                                                   <li>Or the link context.</li>
                                                 </ul>
                                               </li>
@@ -2268,7 +2268,7 @@
                                 <p>When the visible label is supplemented by another expression in the accessible name:</p>
                                 <ul>
                                   <li>WCAG emphasizes placing the visible label at the beginning of the accessible name, though it does not require exclusivity of this placement;</li>
-                                  <li>WCAG considers it a failure if the visible label’s character string does not match exactly within the accessible name.</li>
+                                  <li>WCAG considers it a failure if the visible label's character string does not match exactly within the accessible name.</li>
                                 </ul>
                                 <p>For example, considering the visible label "Order now” supplemented in the accessible name by the expression "product X”, the following cases may occur:</p>
                                 <ul>
@@ -4921,7 +4921,7 @@
                                     <h4>10.13.1</h4>
                                   </div>
                                   <div class="title">
-                                    <p>Can each additional content that becomes visible when focusing or hovering over an <a hreflang="fr" href="https://accessibilite.numerique.gouv.fr/methode/glossaire/#composant-d-interface">interface component</a> be hidden by the user’s action without moving the focus or the mouse pointer (excluding specific cases)?&nbsp;</p>
+                                    <p>Can each additional content that becomes visible when focusing or hovering over an <a hreflang="fr" href="https://accessibilite.numerique.gouv.fr/methode/glossaire/#composant-d-interface">interface component</a> be hidden by the user's action without moving the focus or the mouse pointer (excluding specific cases)?&nbsp;</p>
                                     <section class="cc-accordion">
                                       <details>
                                         <summary>
@@ -5629,509 +5629,577 @@
                 <p>They represent a small set of knowledge to remember and habits to adopt in order to create the most accessible document (web, email, etc.) possible.</p>
               </div>
               <ul id="bestpractiseList">
-              <li class="criterion">
-                <div class="criteres">
-                  <div class="anchor">
-                    <h3> 
-                      <span class="number">14.1</span>
-                      <span class="title">Avoid Long URLs</span>
-                    </h3>
-                    <section class="cc-accordion">
-                      <details>
-                        <summary>Details</summary>
-                        <div>
+                <li class="criterion">
+                  <div class="criteres">
+                    <div class="anchor">
+                      <h3> 
+                        <span class="number">14.1</span>
+                        <span class="title">Avoid Long URLs</span>
+                      </h3>
+                      <section class="cc-accordion">
+                        <details>
+                          <summary>Details</summary>
                           <div>
                             <div>
-                              <div class="test">
-                                <div class="anchor">
-                                  <h4>14.1.1</h4>
-                                </div>
-                                <div class="title">
-                                     <p>Refrain from including lengthy URLs within the main content of your email.</p> 
-                                     <p>Rather, opt for meaningful link text that clearly conveys the destination or purpose of the link. This enhances readability and keeps the email visually tidy for all recipients.</p> 
-                                     <p>Example: Instead of saying, "Check out this on Google: http://www.google.com" use "check out this on Google" and embed the link under "Google".</p>
+                              <div>
+                                <div class="test">
+                                  <div class="anchor">
+                                    <h4>14.1.1</h4>
+                                  </div>
+                                  <div class="title">
+                                    <p><span class="bold">Refrain from including lengthy URLs within the main content of your email</span>.</p>
+                                    <p>Rather, opt for <span class="bold">meaningful link text</span> that clearly conveys the destination or <span class="bold">purpose of the link</span>. This enhances readability and keeps the email visually tidy for all recipients.</p>
+                                    <p>Example: Instead of saying, "Check out this on Google: http://www.google.com" use "check out this on Google" and embed the link under "Google".</p>
+                                  </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                        </div>
-                      </details>
-                    </section>
+                        </details>
+                      </section>
+                    </div>
                   </div>
-                </div>
-              </li>
-              <li class="criterion">
-                <div class="criteres">
-                  <div class="anchor">
-                    <h3>
-                      <span class="number">14.2</span>
-                      <span class="title">Emojis and Emoticons
-                      </span>
-                    </h3>
-                    <section class="cc-accordion">
-                      <details>
-                        <summary>Details</summary>
-                        <div>
+                </li>
+                <li class="criterion">
+                  <div class="criteres">
+                    <div class="anchor">
+                      <h3>
+                        <span class="number">14.2</span>
+                        <span class="title">Emojis and Emoticons
+                        </span>
+                      </h3>
+                      <section class="cc-accordion">
+                        <details>
+                          <summary>Details</summary>
                           <div>
                             <div>
-                              <div class="test">
-                                <div class="anchor">
-                                  <h4>14.2.1</h4>
-                                </div>
-                                <div class="title">
-                                  <p>Emojis and Emoticons</p>
+                              <div>
+                                <div class="test">
+                                  <div class="anchor">
+                                    <h4>14.2.1</h4>
+                                  </div>
+                                  <div class="title">
+                                    <p><span class="bold">Emojis and Emoticons</span></p>
                                     <p>Use emojis sparingly. Avoid using text-based emoticons. Instead, use plain language or emojis to keep the message clear for all users, including those using screen readers. Example: instead of "Great job! :)", use "Great job! 😊"</p>
-                                  
-                                
-                                    <p>Using only an emoji (and no text) increases the cognitive load for people using assistive technologies – because they rely solely on the alt text read to them to interpret the emoji. Misunderstandings can also lead to people feeling excluded, which goes against the goal of accessibility.</p>
-                                    <p>For accessibility, emojis should be placed at the end of your message, social caption, or sentence.</p>
-                                    <p>Avoid long emoji strings</p>
+                                    <p>Using only an emoji (and no text) increases the <span class="bold">cognitive load</span> for people using assistive technologies – because they rely solely on the alt text to interpret the emoji.</p>
+                                    <p>Misunderstandings can also lead to people feeling excluded, which goes against the goal of accessibility.</p>
+                                    <p>Emojis should be placed <span class="bold">at the end of your message</span>, social caption, or sentence.</p>
+                                    <p><span class="bold">Avoid long emoji strings</span></p>
                                     <p>Emojis should only be used to add to the context of your text – never as a replacement.</p>
                                     <p>Here are two ways to correctly use emojis for screen readers:</p>
                                     <p>Adding Alt :</p>
                                     <p><code>We &lt;img src=&quot;emoticon-heart.png&quot; width=&quot;22&quot; height=&quot;22&quot; alt=&quot;love&quot; style=&quot;display: inline; margin: 0; padding: 0; vertical-align: -5px;&quot; border=&quot;0&quot; /&gt; email!</code></p>
                                     <p>Or using Wai-Aria :</p>
                                     <p><code>We &lt;span role=&quot;img&quot; aria-label=&quot;love&quot;&gt;&#x2764;&#xfe0f;&lt;/span&gt; email!</code></p>
+                                  </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                        </div>
-                      </details>
-                    </section>
+                        </details>
+                      </section>
+                    </div>
                   </div>
-                </div>
-              </li>
-              <li class="criterion">
-                <div class="criteres">
-                  <div class="anchor">
-                    <h3>
-                      <span class="number">14.3</span>
-                      <span class="title">Marking Any Links to PDFs</span>
-                    </h3>
-                    <section class="cc-accordion">
-                      <details>
-                        <summary>
-                          details
-                        </summary>
-                        <div>
+                </li>
+                <li class="criterion">
+                  <div class="criteres">
+                    <div class="anchor">
+                      <h3>
+                        <span class="number">14.3</span>
+                        <span class="title">Marking Any Links to PDFs</span>
+                      </h3>
+                      <section class="cc-accordion">
+                        <details>
+                          <summary>
+                            details
+                          </summary>
                           <div>
                             <div>
-                              <div class="test">
-                                <div class="anchor">
-                                  <h4>14.3.1</h4>
-                                </div>
-                                <div class="title">
-                                  <p>Marking Any Links to PDFs</p>
-                                  <p>Label links to PDF files as PDFs. This informs users what to expect when clicking on the link.</p>
-                                  <p>Example: Instead of "Download the file," use "Download the PDF file" or "Download File (PDF)".</p>
+                              <div>
+                                <div class="test">
+                                  <div class="anchor">
+                                    <h4>14.3.1</h4>
+                                  </div>
+                                  <div class="title">
+                                    <p><span class="bold">Marking Any Links to PDFs</span></p>
+                                    <p>Label links to PDF files as PDFs. This <span class="bold">informs users what to expect</span> when clicking on the link.</p>
+                                    <p>Example: Instead of "Download the file," use "Download the PDF file" or "Download File (PDF)".</p>
+                                  </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                        </div>
-                      </details>
-                    </section>
+                        </details>
+                      </section>
+                    </div>
                   </div>
-                </div>
-              </li>
-             
-              <li class="criterion">
-                <div class="criteres">
-                  <div class="anchor">
-                    <h3>
-                      <span class="number">14.4</span>
-                      <span class="title">Avoid Underlining Non-Link Text</span>
-                    </h3>
-                    <section class="cc-accordion">
-                      <details>
-                        <summary>
-                          Details
-                        </summary>
-                        <div>
+                </li>
+                <li class="criterion">
+                  <div class="criteres">
+                    <div class="anchor">
+                      <h3>
+                        <span class="number">14.4</span>
+                        <span class="title">Avoid Underlining Non-Link Text</span>
+                      </h3>
+                      <section class="cc-accordion">
+                        <details>
+                          <summary>
+                            Details
+                          </summary>
                           <div>
                             <div>
-                              <div class="test">
-                                <div class="anchor">
-                                  <h4>14.5.1</h4>
-                                </div>
-                                <div class="title">
-                                  <p>Avoid Underlining Non-Link Text</p>
-                                  <p>Refrain from <a href="https://a11y-101.com/development/underlined-links">underlining text that isn't a hyperlink</a> to prevent confusing users. Underlines should be reserved exclusively for links, making them easily recognizable.</p>
-                                  <p>Use underlines solely to highlight clickable links.
-                                  </p>
+                              <div>
+                                <div class="test">
+                                  <div class="anchor">
+                                    <h4>14.5.1</h4>
+                                  </div>
+                                  <div class="title">
+                                    <p><span class="bold">Avoid Underlining Non-Link Text</span></p>
+                                    <p>Refrain from <a href="https://a11y-101.com/development/underlined-links">underlining text that isn't a hyperlink</a> to prevent confusing users. <span class="bold">Underlines should be reserved exclusively for links</span>, making them easily recognizable.</p>
+                                    <p>Use underlines solely to highlight clickable links.
+                                    </p>
+                                  </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                        </div>
-                      </details>
-                    </section>
+                        </details>
+                      </section>
+                    </div>
                   </div>
-                </div>
-              </li>
-              <li class="criterion">
-                <div class="criteres">
-                  <div class="anchor">
-                    <h3>
-                      <span class="number">14.5</span>
-                      <span class="title">Text and Fonts</span>
-                    </h3>
-                    <section class="cc-accordion">
-                      <details>
-                        <summary>
-                          Details
-                        </summary>
-                        <div>
+                </li>
+                <li class="criterion">
+                  <div class="criteres">
+                    <div class="anchor">
+                      <h3>
+                        <span class="number">14.5</span>
+                        <span class="title">Text and Fonts</span>
+                      </h3>
+                      <section class="cc-accordion">
+                        <details>
+                          <summary>
+                            Details
+                          </summary>
                           <div>
                             <div>
-                              <div class="test">
-                                <div class="anchor">
-                                  <h4>14.5.1</h4>
-                                </div>
-                                <div class="title">
-                                   <p>Text and Fonts</p>
-                                    <p>Choose a simple, legible font for emails. Avoid complex or hard-to-read fonts, and ensure the text size is at least 12 points. Align the text to the left.</p>
-                                    <p>It is usually advised to steer clear of serif fonts (those with small lines at the ends of letters) as they can hinder readability for people with dyslexia by making it more difficult to distinguish individual letters.</p>
+                              <div>
+                                <div class="test">
+                                  <div class="anchor">
+                                    <h4>14.5.1</h4>
+                                  </div>
+                                  <div class="title">
+                                    <p><span class="bold">Text and Fonts</span></p>
+                                    <p>Choose a <span class="bold">simple, legible font</span> for emails. Avoid complex or hard-to-read fonts, and ensure the text size is at least 12 points. Align the text to the left.</p>
+                                    <p>It is usually advised to <span class="bold">steer clear of serif fonts</span> (those with small lines at the ends of letters) as they can hinder readability for people with dyslexia by making it more difficult to distinguish individual letters.</p>
                                     <p>Opt for sans-serif font, and a standard one like Arial or Times New Roman.</p>
+                                  </div>
                                 </div>
-                              </div>
-                              <div class="test">
-                                <div class="anchor">
-                                  <h4>14.5.2</h4>
+                                <div class="test">
+                                  <div class="anchor">
+                                    <h4>14.5.2</h4>
+                                  </div>
+                                  <div class="title">
+                                    <p><span class="bold">Centering Text</span></p>
+                                    <p><span class="bold">Avoid centering text</span> if it spans more than a few lines. Keep in mind that a small amount of centered text on desktop could turn into multiple lines on mobile, making it harder to read.</p>
+                                  </div>
                                 </div>
-                                <div class="title">
-                                  <p>Centering Text</p>
-                                  <p>Avoid centering text if it spans more than a few lines. Keep in mind that a small amount of centered text on desktop could turn into multiple lines on mobile, making it harder to read.</p>
+                                <div class="test">
+                                  <div class="anchor">
+                                    <h4>14.5.3</h4>
+                                  </div>
+                                  <div class="title">
+                                    <p><span class="bold">Justifying Text</span></p>
+                                    <p>Justified text is spaced so that both the left and right edges of the paragraph are aligned with the page margins, creating a block-like appearance.</p>
+                                    <p>The way text is laid out affects its readability. Justifying text can make it harder for some people to follow the text from line to line, especially those with <span class="bold">tracking issues</span>.</p>
+                                    <p>This becomes a <span class="bold">significant issue</span> for users with assistive technologies (AT). Many people with vision impairments rely on <span class="bold">screen magnifiers</span> or zoom in on web content. If the text is justified, these users may encounter large gaps between words or words that run together, creating confusion.</p>
+                                  </div>
                                 </div>
-                              </div>
-                              <div class="test">
-                                <div class="anchor">
-                                  <h4>14.5.3</h4>
+                                <div class="test">
+                                  <div class="anchor">
+                                    <h4>14.5.4</h4>
+                                  </div>
+                                  <div class="title">
+                                    <p><span class="bold">Avoid Black Text on White Background</span></p>
+                                    <p>A significant number of users with dyslexia are particularly sensitive to the high contrast created by these colors, which can cause words to appear distorted or blurred.</p>
+                                    <p>To improve readability, consider using a softer background color, such as light gray or beige, instead of pure white. Additionally, opting for dark gray text rather than pure black can help reduce glare and enhance overall legibility.</p>
+                                  </div>
                                 </div>
-                                <div class="title">
-                                  <p>Justifying Text</p>
-                                  <p>Justified text is spaced so that both the left and right edges of the paragraph are aligned with the page margins, creating a block-like appearance.</p>
-                                  <p>The way text is laid out affects its readability. Justifying text or centering it can make it harder for some people to follow the text from line to line, especially those with tracking issues.</p>
-                                  <p>This becomes a significant issue for users with assistive technologies (AT). Many people with vision impairments rely on screen magnifiers or zoom in on web content. If the text is justified, these users may encounter large gaps between words or words that run together, creating confusion.</p>
-                                  
+                                <div class="test">
+                                  <div class="anchor">
+                                    <h4>14.5.5</h4>
+                                  </div>
+                                  <div class="title">
+                                    <p><span class="bold">Heading Style</span></p>
+                                    <p>As the display of headings (margins, weight, etc.) can vary across different mailboxes, a best practice is to double the style of the <code>td</code> directly in the <code>hn</code> tag. For example :</p>
+                                    <p><code>&lt;td style=&quot;font-family:Arial,sans-serif;font-size:14px;color:#000000;padding:10px&quot;&gt;<br/>    &lt;h1 style=&quot;margin:0;font-family:Arial,sans-serif;font-size:14px;color:#000000;&quot;&gt;Lorem ipsum&lt;/h1&gt;<br/>&lt;/td&gt;<br/></code></p>
+                                    <p><span class="bold">La poste.net adds a background color and a border to level 2 and 3 titles</span>.</p>
+                                    <p>To ensure consistency, always add:</p>
+                                    <p><code>background:none;border:0</code></p>
+                                    <p>to <code>h2</code> and <code>h3</code> tags to avoid differences in rendering in this mail client.</p>
+                                  </div>
                                 </div>
-                              </div>
-                              <div class="test">
-                                <div class="anchor">
-                                  <h4>14.5.4</h4>
-                                </div>
-                                <div class="title">
-                                  <p>Avoid Black Text on White Background</p>
-                                  <p>There’s a reason the text you're reading now isn't pure black (#000000), and the background isn't pure white (#FFFFFF). Many users with dyslexia are sensitive to the intense contrast caused by these colors, which can make words appear to swirl or blur together.</p>
-                                  <p>To mitigate this, use a softer background color, such as light gray or tan, rather than pure white. Additionally, consider using dark gray for your text instead of pure black to reduce glare and enhance readability.</p>
-                                </div>
-                              </div>
-                              <div class="test">
-                                <div class="anchor">
-                                  <h4>14.5.5</h4>
-                                </div>
-                                <div class="title">
-                                  <p>Heading Style</p>
-                                  <p>As the display of titles (margins, weight, etc.) can vary across different mailboxes, a best practice is to double the style of the <code>td</code> directly in the <code>hn</code> tag.</p>
-                                  <p><code>&lt;td style=&quot;font-family:Arial,sans-serif;font-size:14px;color:#000000;padding:10px&quot;&gt;<br/>    &lt;h1 style=&quot;margin:0;font-family:Arial,sans-serif;font-size:14px;color:#000000;&quot;&gt;Lorem ipsum&lt;/h1&gt;<br/>&lt;/td&gt;<br/></code></p>
-                                  <p>La poste.net adds a background color and a border to level 2 and 3 titles.</p>
-                                  <p>To ensure consistency, always add:</p>
-                                  <p><code>background:none;border:0</code></p>
-                                  <p>to <code>h2</code> and <code>h3</code> tags to avoid differences in rendering in this mail client.</p>
-                                </div>
-                              </div>
-                              <div class="test">
-                                <div class="anchor">
-                                  <h4>14.5.6</h4>
-                                </div>
-                                <div class="title">
-                                  <p>Avoid Using All Caps</p>
-                                  <p>Steer clear of using all caps, as screen readers may interpret them as separate letters. Opt for regular or title case to improve readability.</p>
-                                  <p>Example: Instead of writing FINALLY, write finally.</p>
-                                  <p>Use CSS <code>text-transform: uppercase</code></p>
-                                  <p>So, instead of writing:</p>
-                                  <p><code>&lt;p&gt;BONJOUR&lt;/p&gt;</code></p>
-                                  <p>Use:</p>
-                                  <p><code>&lt;p style=&quot;text-transform:uppercase&quot;&gt;bonjour&lt;/p&gt;</code></p>
+                                <div class="test">
+                                  <div class="anchor">
+                                    <h4>14.5.6</h4>
+                                  </div>
+                                  <div class="title">
+                                    <p><span class="bold">Avoid Using All Caps</span></p>
+                                    <p>Steer clear of using all caps, as screen readers may interpret them as separate letters. Opt for regular or title case to improve readability.</p>
+                                    <p>Example: Instead of writing FINALLY, write finally.</p>
+                                    <p>Use CSS <code>text-transform: uppercase</code></p>
+                                    <p>So, instead of writing:</p>
+                                    <p><code>&lt;p&gt;BONJOUR&lt;/p&gt;</code></p>
+                                    <p>Use:</p>
+                                    <p><code>&lt;p style=&quot;text-transform:uppercase&quot;&gt;bonjour&lt;/p&gt;</code></p>
+                                  </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                        </div>
-                      </details>
-                    </section>
+                        </details>
+                      </section>
+                    </div>
                   </div>
-                </div>
-              </li>
-              <li class="criterion">
-                <div class="criteres">
-                  <div class="anchor">
-                    <h3>
-                      <span class="number">14.6</span>
-                      <span class="title">Use Descriptive Anchor Link Text</span>
-                    </h3>
-                    <section class="cc-accordion">
-                      <details>
-                        <summary>
-                          Details
-                        </summary>
-                        <div>
+                </li>
+                <li class="criterion">
+                  <div class="criteres">
+                    <div class="anchor">
+                      <h3>
+                        <span class="number">14.6</span>
+                        <span class="title">Use Descriptive Anchor Link Text</span>
+                      </h3>
+                      <section class="cc-accordion">
+                        <details>
+                          <summary>
+                            Details
+                          </summary>
                           <div>
                             <div>
-                              <div class="test">
-                                <div class="anchor">
-                                  <h4>14.6.1</h4>
-                                </div>
-                                <div class="title">
-                                  <p>Use Descriptive Anchor Link Text</p>
-                                  <p>Write descriptive text for links that clearly indicate where the link goes. This helps all users, especially those using screen readers, to understand the link’s purpose.</p>
-                                  <p>Example: Instead of "Click here,” use a descriptive link text that explains the purpose. For example, link to the last part of this sentence: "Read more about website accessibility best practices.”</p>
-                                  <p>If the editorial part cannot be edited, text can be displayed only for screen readers, as follows:</p>
-                                  <p><code>&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;block-link&quot;&gt;En Read more &lt;span class=&quot;sr-only&quot;&gt;sur &#x00ab;&#x00a0; on [subject]&#x00a0;&#x00bb;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</code></p>
-                                  <p>We can hide that text with:</p>
-                                  <p><code>.sr-only {<br/>position:absolute;<br/>left:-10000px;<br/>top:auto;<br/>width:1px;<br/>height:1px;<br/>overflow:hidden;<br/>}</code></p>
-                                  <p>But this technique:</p>
-                                  <p><code>position: absolute; left: -10000px; or text-indent: -10000px</code></p>
-                                  <p>Is <a href="https://www.sitelint.com/blog/hiding-a-text-but-making-it-accessible-to-a-screen-reader">not recommended for modern standards</a> due to its compatibility issues with screen magnifiers, and screen readers’ virtual cursors, as well as moving focus outside of the viewport.</p>
-                                  <p>Depending on your target, you could use:</p>
-                                  <p><code>.sr-only {<br/>  border: 0 !important;<br/>  clip: rect(0, 0, 0, 0) !important;<br/>  height: 1px !important;<br/>  margin: -1px !important;<br/>  overflow: hidden !important;<br/>  padding: 0 !important;<br/>  white-space: nowrap !important;<br/>  width: 1px !important;<br/>}</code></p>
-                                  <p>For an email-friendly approach, we can use <a href="https://www.goodemailcode.com/email-accessibility/visually-hidden-text">Mark Robbins' technique</a>:</p>
-                                  <p><code>&lt;a href=&quot;&quot;&gt;Read More &lt;span style=&quot;display:inline-block; max-height:0; max-width:0;mso-font-width:0%;mso-style-textfill-type: none; white-space: nowrap;&quot;&gt;<br/>  &lt;span style=&quot;max-height:1px; max-width:1px; display:inline-block; overflow:hidden; font-size:1px;color:rgba(0,0,0,0);text-indent:9px;&quot;&gt;<br/>    about [subject]<br/>  &lt;/span&gt;<br/>&lt;/span&gt;&lt;/a&gt;</code></p>
+                              <div>
+                                <div class="test">
+                                  <div class="anchor">
+                                    <h4>14.6.1</h4>
+                                  </div>
+                                  <div class="title">
+                                    <p><span class="bold">Use Descriptive Anchor Link Text</span></p>
+                                    <p>The <a href="https://www.section508.gov/blog/accessibility-bytes/descriptive-links-and-hypertext/#:~:text=Ensure%20link%20text%20is%20meaningful%20and%20descriptive%2C%20indicating,link%20text%20should%20make%20sense%20out%20of%20context.">recommendations from the Section 508 guidelines</a> are very clear on this subject:</p>
+                                    <p><span class="italic">"Ensure link text is meaningful and descriptive, indicating the purpose or destination of the link. Avoid using vague terms like "click here" or "read more."" Example: Use "Download the annual report" instead of "Click here."" The link text should make sense out of context</span>.</p>
+                                    <p>If the editorial part cannot be edited, text can be displayed only for screen readers.</p>
+                                    <p>CSS properties like absolute positioning or clip are not really supported in email. There are several hacks available that we will present in section 14.12 (see below).</p>
+                                  </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                        </div>
-                      </details>
-                    </section>
+                        </details>
+                      </section>
+                    </div>
                   </div>
-                </div>
-              </li>
-              <li class="criterion">
-                <div class="criteres">
-                  <div class="anchor">
-                    <h3>
-                      <span class="number">14.7</span>
-                      <span class="title">Whitespace and Layout</span>
-                    </h3>
-                    <section class="cc-accordion">
-                      <details>
-                        <summary>
-                          Details
-                        </summary>
-                        <div>
+                </li>
+                <li class="criterion">
+                  <div class="criteres">
+                    <div class="anchor">
+                      <h3>
+                        <span class="number">14.7</span>
+                        <span class="title">Whitespace and Layout</span>
+                      </h3>
+                      <section class="cc-accordion">
+                        <details>
+                          <summary>
+                            Details
+                          </summary>
                           <div>
                             <div>
-                              <div class="test">
-                                <div class="anchor">
-                                  <h4>14.7.1</h4>
+                              <div>
+                                <div class="test">
+                                  <div class="anchor">
+                                    <h4>14.7.1</h4>
+                                  </div>
+                                  <div class="title">
+                                    <p><span class="bold">Whitespace and Layout</span></p>
+                                    <p>Use paragraph spacing and layout tools to create a clean presentation. Avoid using tabs, multiple spaces, or carriage returns to create whitespace.</p>
+                                    <p>Use appropriate line spacing and margins to separate sections of text.</p>
+                                  </div>
                                 </div>
-                                <div class="title">
-                                  <p>Whitespace and Layout</p>
-                                  <p>Use paragraph spacing and layout tools to create a clean presentation. Avoid using tabs, multiple spaces, or carriage returns to create whitespace.</p>
-                                  <p>Use appropriate line spacing and margins to separate sections of text.</p>
+                                <div class="test">
+                                  <div class="anchor">
+                                    <h4>14.7.2</h4>
+                                  </div>
+                                  <div class="title">
+                                    <p><span class="bold">Line Break in text</span></p>
+                                    <p>For a line break, use the margin on paragraph tags, rather than a <code>&lt;br/&gt;</code>. The height of the line break induced by a <code>&lt;br/&gt;</code> varies from one mailbox to another. It should therefore be avoided, as much as possible.</p>
+                                    <p><code>&lt;p style=&quot;margin:0 0 10px&quot;&gt;</code></p>
+                                    <p>From an accessibility perspective, the line break is a visual indicator, not a semantic one. Depending on screen readers, they may pause on the br. If the line break is purely visual, one way to avoid it is to use <code>role=text</code>.</p>
+                                    <p><code>&lt;span role=&quot;text&quot;&gt;The&lt;br&gt;End&lt;/span&gt;</code></p>
+                                    <p>Or</p>
+                                    <p><code>&lt;br aria-hidden=&quot;true&quot; /&gt;</code></p>
+                                    <p>Unfortunately, depending on the screen reader and the email client used, these techniques may have no effect.</p>
+                                  </div>
                                 </div>
-                              </div>
-                              <div class="test">
-                                <div class="anchor">
-                                  <h4>14.7.2</h4>
-                                </div>
-                                <div class="title">
-                                  <p>Line Break in text</p>
-                                  <p>For a line break, use the margin on paragraph tags, rather than a <code>&lt;br/&gt;</code>. The height of the line break induced by a <code>&lt;br/&gt;</code> varies from one mailbox to another. It should therefore be avoided, as much as possible.</p>
-                                  <p><code>&lt;p style=&quot;margin:0 0 10px&quot;&gt;</code></p>
-                                  <p>From an accessibility perspective, the line break is a visual indicator, not a semantic one. Depending on screen readers, they may pause on the br. If the line break is purely visual, one way to avoid it is to use <code>role=text</code>.</p>
-                                  <p><code>&lt;span role=&quot;text&quot;&gt;The&lt;br&gt;End&lt;/span&gt;</code></p>
-                                  <p>Or</p>
-                                  <p><code>&lt;br aria-hidden=&quot;true&quot; /&gt;</code></p>
-                                </div>
-                              </div>
-                              <div class="test">
-                                <div class="anchor">
-                                  <h4>14.7.3</h4>
-                                </div>
-                                <div class="title">
-                                  <p><a href="https://www.litmus.com/blog/special-characters-emojis-line-breaks-more-tricks-for-optimizing-your-emails-for-screen-readers">Line Breaks in Headings</a></p>
-                                  <p>When splitting a headline in two parts with a <code>&lt;br/&gt;</code> tag, the screen reader could read the heading twice.</p>
-                                  <p>A solution would be to wrap the line you want to break in a <code>&lt;span&gt;</code> with <code>style="display:block;"</code> applied to it, which breaks it into a new line.</p>
-                                  <p>Then, you can add a responsive class="inline" to it so the copy flows inline again once it hits below your mobile breakpoint. Then add an &nbsp; before the <code>&lt;span&gt;</code> to force a separation between the words for the screen reader, and an optional <code>&amp;nbsp;</code> at the end of the copy to prevent orphans. See code examples below:</p>
-                                  <p><code>@media only screen and (max-width: 640px) {<br/>.inline { display:inline !important; }<br/>}</code></p>
-                                   <p>On NVDA, even without br, if the title is spread over several lines, the title level (h1,h2 etc) will be read as many times as there are lines.</p>
+                                <div class="test">
+                                  <div class="anchor">
+                                    <h4>14.7.3</h4>
+                                  </div>
+                                  <div class="title">
+                                    <p><span class="bold">Line Breaks in Headings</span></p>
+                                    <p>According to <a href="https://www.litmus.com/blog/special-characters-emojis-line-breaks-more-tricks-for-optimizing-your-emails-for-screen-readers">Litmus</a>, when splitting a headline in two parts with a <code>&lt;br/&gt;</code> tag, the screen reader could read the heading twice.</p>
+                                    <p>A solution would be to wrap the line you want to break in a <code>&lt;span&gt;</code> with <code>style="display:block;"</code> applied to it, which breaks it into a new line.</p>
+                                    <p>Then, you can add a responsive class="inline" to it so the copy flows inline again once it hits below your mobile breakpoint. Then add an &nbsp; before the <code>&lt;span&gt;</code> to force a separation between the words for the screen reader, and an optional <code>&amp;nbsp;</code> at the end of the copy to prevent orphans. See code examples below:</p>
+                                    <p><code>@media only screen and (max-width: 640px) {<br/>.inline { display:inline !important; }<br/>}</code></p>
+                                    <p>In reality, if you navigate with the arrows, but not only that, as soon as a title spans multiple lines, NVDA (to name just one) will read "heading level n" as many times as there are lines. This bug has been reported in many discussions, and there is no solution to this problem.</p>
+                                  </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                        </div>
-                      </details>
-                    </section>
+                        </details>
+                      </section>
+                    </div>
                   </div>
-                </div>
-              </li>
-              <li class="criterion">
-                <div class="criteres">
-                  <div class="anchor">
-                    <h3>
-                      <span class="number">14.8</span>
-                      <span class="title">Underline</span>
-                    </h3>
-                    <section class="cc-accordion">
-                      <details>
-                        <summary>
-                          Details
-                        </summary>
-                        <div>
+                </li>
+                <li class="criterion">
+                  <div class="criteres">
+                    <div class="anchor">
+                      <h3>
+                        <span class="number">14.8</span>
+                        <span class="title">Underline</span>
+                      </h3>
+                      <section class="cc-accordion">
+                        <details>
+                          <summary>
+                            Details
+                          </summary>
                           <div>
                             <div>
-                              <div class="test">
-                                <div class="anchor">
-                                  <h4>14.8.1</h4>
-                                </div>
-                                <div class="title">
-                                  <p>Underline</p>
-                                  <p>The basic visual markup of a link is the underline. Underlining a link makes it stand out from the rest of the text. That's good. But there’s a problem with the underline. Every letter has a baseline. Think of it as the line the letter sits on. Some letters - like g, p, q, y, j - sit on that line and "let their feet dangle". By underlining a word you put a line over these parts of the letters and it becomes difficult to read them.</p>
-                                  <p>Instead of text-decoration:underline, use <a href="https://a11y-101.com/development/underlined-links">border-bottom</a>.</p>
-                                  <p><code>a.border {<br/>line-height: 1.5em;<br/>text-decoration: none;<br/>border-bottom: 1px solid blue;<br/>}</code></p>
-                                  <p><code>text-decoration-skip</code> is still an experimental technology.</p>
-                                  <p><code>text-decoration-skip-ink</code> is now widely available.</p>
+                              <div>
+                                <div class="test">
+                                  <div class="anchor">
+                                    <h4>14.8.1</h4>
+                                  </div>
+                                  <div class="title">
+                                    <p><span class="bold">Underline</span></p>
+                                    <p>The fundamental visual indicator of a link is the underline, which helps distinguish it from the surrounding text.</p>
+                                    <p>While this is effective, there is an issue with the underlining itself. Each letter has a baseline, which can be thought of as the line on which the letter sits. Certain letters, such as g, p, q, y, and j, extend below this baseline, giving them "dangling feet." When these letters are underlined, the line crosses over these lower parts, making them <span class="bold">harder to read</span>.</p>
+                                    <p>Instead of text-decoration:underline, use <a href="https://a11y-101.com/development/underlined-links">border-bottom</a>.</p>
+                                    <p><code>a.border {<br/>line-height: 1.5em;<br/>text-decoration: none;<br/>border-bottom: 1px solid blue;<br/>}</code></p>
+                                    <p><code>text-decoration-skip</code> is still an experimental technology.</p>
+                                    <p><code>text-decoration-skip-ink</code> is now widely available.</p>
+                                  </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                        </div>
-                      </details>
-                    </section>
+                        </details>
+                      </section>
+                    </div>
                   </div>
-                </div>
-              </li>
-              <li class="criterion">
-                <div class="criteres">
-                  <div class="anchor">
-                    <h3>
-                      <span class="number">14.9</span>
-                      <span class="title">List</span>
-                    </h3>
-                    <section class="cc-accordion">
-                      <details>
-                        <summary>
-                          Details
-                        </summary>
-                        <div>
+                </li>
+                <li class="criterion">
+                  <div class="criteres">
+                    <div class="anchor">
+                      <h3>
+                        <span class="number">14.9</span>
+                        <span class="title">List</span>
+                      </h3>
+                      <section class="cc-accordion">
+                        <details>
+                          <summary>
+                            Details
+                          </summary>
                           <div>
                             <div>
-                              <div class="test">
-                                <div class="anchor">
-                                  <h4>14.9.1</h4>
-                                </div>
-                                <div class="title">
-                                
-                                  <p>Regarding list margins: Outlook transforms any list into a paragraph, as soon as you touch the lateral margin (margin-left). The rendering will be that of a list, but in the code and on Outlook, the list will be made up of paragraphs, so we lose accessibility.</p>
-                                  <p>In the <code>ul</code> or <code>li</code> tags, you must therefore indicate a vertical margin only. The distance between the text and the bullet point can be modified using the padding or text-indent properties.</p>
-                                  <p>We can also move the list horizontally by encapsulating the list in a div, to which we apply a margin.</p>
-                                  <p>In some cases, especially for design reasons, you can create a fake list using a paragraph.</p>
-                                  <p>If it's just a matter of visual rendering, we can hide the bullet points from screen readers using the aria-hidden attribute. This is cosmetic, since not all screen readers interpret aria-hidden, but it's better than nothing.</p>
-                                  <p><code>&lt;p style=&quot;margin:0&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;&amp;bull;&amp;nbsp;&lt;/span&gt;blabla&lt;/p&gt;</code></p>
-                                  <p>When using the aria <code>role="list"</code> to simulate a list that cannot be done with a semantic list (ul or ol), one possibility is to use the <code>list</code> role on a cell, and <code>list-item</code> on the child elements.</p>
-                                  <p><code>td align=&quot;center&quot; valign=&quot;top&quot; style=&quot;text-align:left;font-family: Arial,sans-serif; font-size:14px;mso-line-height-rule: exactly;line-height: 21px;color:#000000;padding:10px;background-color:#ffffff&quot; role=&quot;list&quot;&gt;<br/>    &lt;p style=&quot;margin:0 0 0 17px;display: list-item;list-style: disc;&quot; role=&quot;listitem&quot;&gt;<br/>      &lt;!--[if mso]&gt;&amp;bull;&amp;nbsp;&lt;![endif]--&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <br/>    &lt;/p&gt;<br/></code></p>
-                                  <p>Here we reproduce the bullets in html using:</p>
-                                  <p><code>display: list-item;list-style: disc;</code></p>
-                                  <p>and for Outlook using:</p>
-                                  <p><code>&lt;!--[if mso]&gt;&amp;bull;&amp;nbsp;&lt;![endif]--&gt;</code></p>
+                              <div>
+                                <div class="test">
+                                  <div class="anchor">
+                                    <h4>14.9.1</h4>
+                                  </div>
+                                  <div class="title">
+                                    <p><span class="bold">Regarding list margins</span>:</p>
+                                    <p>Outlook transforms any list into a paragraph, as soon as you touch the lateral margin (margin-left). The rendering will be that of a list, but in the code and on Outlook, the list will be made up of paragraphs, so we lose accessibility.</p>
+                                    <p>In the <code>ul</code> or <code>li</code> tags, you must therefore indicate a vertical margin only.</p>
+                                    <p>To visually adjust the list while remaining accessible, there are different techniques to control the positioning of the list or reduce the margins between the bullet points and the text.</p>
+                                    <ul>
+                                      <li>
+                                        <a href="https://codepen.io/matthieuSolente/pen/JjwpyPm">reduce the margin between the bullet points and the text</a>.
+                                      </li>
+                                      <li><a href="https://codepen.io/matthieuSolente/pen/VwMJypr">move the list horizontally by encapsulating the list in a div</a> or <a href="https://codepen.io/matthieuSolente/pen/RwjbqOa">use a simple layout trick</a>.</li>
+                                      <li>create <a href="https://codepen.io/matthieuSolente/pen/GRWEgVE">a fake list using a paragraph and role="list"</a></li>
+                                    </ul>
+                                  </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                        </div>
-                      </details>
-                    </section>
+                        </details>
+                      </section>
+                    </div>
                   </div>
-                </div>
-              </li>
-              <li class="criterion">
-                <div class="criteres">
-                  <div class="anchor">
-                    <h3>
-                      <span class="number">14.10</span>
-                      <span class="title">Abbreviations</span>
-                    </h3>
-                    <section class="cc-accordion">
-                      <details>
-                        <summary>
-                          Details
-                        </summary>
-                        <div>
+                </li>
+                <li class="criterion">
+                  <div class="criteres">
+                    <div class="anchor">
+                      <h3>
+                        <span class="number">14.10</span>
+                        <span class="title">Abbreviations</span>
+                      </h3>
+                      <section class="cc-accordion">
+                        <details>
+                          <summary>
+                            Details
+                          </summary>
                           <div>
                             <div>
-                              <div class="test">
-                                <div class="anchor">
-                                  <h4>14.10.1</h4>
-                                </div>
-                                <div class="title">
-                                  <p>From an accessibility point of view, it is recommended to surround abbreviations with an <code>&lt;abbr&gt;</code> tag with a title to indicate the long version (Latin extension) of the word.</p>
-                                  <p><code>&lt;abbr title=&quot;World Wide Web&quot;&gt;WWW&lt;/abbr&gt;</code></p>
-                                  <p>If you use the <code>&lt;abbr&gt;</code> tag, it is also recommended to use the CSS property <code> speak:spell-out</code> to announce that an element must be spelled out.</p>
-                                  <p>The abbr tag semantically indicates that it is an abbreviation or an acronym, but it has no effect on overall accessibility.</p>
-                                  <p>This solution is not optimal, because the majority of screen readers do not read the title attribute.</p>
-                                  <p>It is therefore recommended to use an aria-label.</p>
-                                  <p><code>&lt;span aria-label=&quot;Mister&quot;&gt;Mr&lt;/span&gt;</code></p>
+                              <div>
+                                <div class="test">
+                                  <div class="anchor">
+                                    <h4>14.10.1</h4>
+                                  </div>
+                                  <div class="title">
+                                    <p>From an accessibility point of view, it is recommended to surround abbreviations with an <code>&lt;abbr&gt;</code> tag with a title to indicate the long version (Latin extension) of the word.</p>
+                                    <p><code>&lt;abbr title=&quot;World Wide Web&quot;&gt;WWW&lt;/abbr&gt;</code></p>
+                                    <p>If you use the <code>&lt;abbr&gt;</code> tag, it is also recommended to use the CSS property <code> speak:spell-out</code> to announce that an element must be spelled out.</p>
+                                    <p>The abbr tag semantically indicates that it is an abbreviation or an acronym, but it has no effect on overall accessibility.</p>
+                                    <p>This solution is not optimal, because the majority of screen readers do not read the title attribute.</p>
+                                    <p>It is therefore recommended to use an aria-label.</p>
+                                    <p><code>&lt;span aria-label=&quot;Mister&quot;&gt;Mr&lt;/span&gt;</code></p>
+                                    <p>Since screen readers on Outlook do not read WAI-ARIA, one solution is to <span class="bold">use hidden text that is only visible to screen readers</span>. This technique is described below in section 14.12.</p>
+                                  </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                        </div>
-                      </details>
-                    </section>
+                        </details>
+                      </section>
+                    </div>
                   </div>
-                </div>
-              </li>
-              <li class="criterion">
-                <div class="criteres">
-                  <div class="anchor">
-                    <h3>
-                      <span class="number">14.11</span>
-                      <span class="title">Background image in Outlook</span>
-                    </h3>
-                    <section class="cc-accordion">
-                      <details>
-                        <summary>
-                          Details
-                        </summary>
-                        <div>
+                </li>
+                <li class="criterion">
+                  <div class="criteres">
+                    <div class="anchor">
+                      <h3>
+                        <span class="number">14.11</span>
+                        <span class="title">Background image in Outlook</span>
+                      </h3>
+                      <section class="cc-accordion">
+                        <details>
+                          <summary>
+                            Details
+                          </summary>
                           <div>
                             <div>
-                              <div class="test">
-                                <div class="anchor">
-                                  <h4>14.11.1</h4>
-                                </div>
-                                <div class="title">
-                                  <p>To display a background image in Outlook (desktop version), the most common method is to use VML code. However, it is important to note that the default VML is not accessible. In Outlook, text contained within VML tags is not interpreted by screen readers (such as text on an image, VML buttons, etc.).</p>
-                                  <p>After many hours of testing and thanks to the preliminary research of Mark Robbins, I discovered a new approach in 2023 that allows for absolute positioning in Outlook, particularly by utilizing mso-specific properties. This technique enables, among other things, displaying text over an image while maintaining accessibility.</p>
-                                  <p>For more information, I invite you to visit my <a href="https://github.com/matthieuSolente/mso-faux-absolute-generator">GitHub page</a> and my "<a href="https://matthieusolente.github.io/mso-faux-absolute-generator/">mso-faux-absolute generator</a>".</p>
+                              <div>
+                                <div class="test">
+                                  <div class="anchor">
+                                    <h4>14.11.1</h4>
+                                  </div>
+                                  <div class="title">
+                                    <p>To <span class="bold">display a background image in Outlook</span> (Windows desktop version), the most common method is to use VML code. However, it is important to note that the default VML is not accessible. In Outlook, text contained within VML tags like <code>v:rect</code>, <code>v:shape</code> or <code>v:roundrect</code> is not interpreted by screen readers (such as text on an image, VML buttons, etc.).</p>
+                                    <p>After many hours of testing and thanks to the <a href="https://github.com/M-J-Robbins/get-off-the-table">preliminary research of Mark Robbins</a>, I discovered a new approach in 2023 that allows for <span class="bold">absolute positioning in Outlook</span>, particularly by utilizing <span class="bold">mso-specific properties</span>.</p>
+                                    <p>This technique enables, among other things, displaying text over an image while maintaining accessibility.</p>
+                                    <p>For more information, I invite you to visit my <a href="https://github.com/matthieuSolente/mso-faux-absolute-generator">GitHub page</a> and my "<a href="https://matthieusolente.github.io/mso-faux-absolute-generator/">mso-faux-absolute generator</a>".</p>
+                                    <p><span class="bold">Forcing screen readers on Outlook to read text over an image</span></p>
+                                    <p>I provide detailed explanations of this technique in section 14.12, but in short, since text contained within <code>v:rect</code>, <code>v:shape</code>, or <code>v:roundrect</code> tags is not typically interpreted by screen readers, we can use a small hack.</p>
+                                    <p>Here is a simple example, using the <a href="https://backgrounds.cm/">backgrounds.cm</a> code</p>
+                                    <p><code><br/>              &lt;div background=&quot;https://picsum.photos/680/115&quot; bgcolor=&quot;#7bceeb&quot; height=&quot;115&quot; valign=&quot;top&quot; style=&quot;background-image:url('https://picsum.photos/680/115');background-size:cover;height:115px&quot;&gt;<br/>              &lt;!--[if gte mso 9]&gt;<br/>                &lt;v:rect role=&quot;presentation&quot; xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; fill=&quot;true&quot; stroke=&quot;false&quot; style=&quot;width:512pt;height:86.25pt;&quot;&gt;<br/>                &lt;v:fill type=&quot;frame&quot; src=&quot;https://picsum.photos/680/115&quot; color=&quot;#7bceeb&quot; /&gt;<br/>                &lt;v:textbox inset=&quot;0,0,0,0&quot;&gt;<br/>                  &lt;![endif]--&gt;<br/>                &lt;div style=&quot;margin:0&quot;&gt;<br/>                  &lt;h1 style=&quot;margin:0&quot;&gt;mon titre&lt;/h1&gt;<br/>                  &lt;p style=&quot;margin:0&quot;&gt;texte&lt;/p&gt;<br/>                &lt;/div&gt;<br/>              &lt;!--[if gte mso 9]&gt;<br/>                &lt;/v:textbox&gt;<br/>                &lt;/v:rect&gt;<br/>                &lt;![endif]--&gt;<br/>              &lt;/div&gt;<br/>              &lt;!--[if gte mso 9]&gt;<br/>                &lt;table role=&quot;presentation&quot;&gt;&lt;tr&gt;&lt;td style=&quot;height:0; width:0;font-size:1.0pt;mso-font-width:1%;mso-style-textfill-type: none;&quot;&gt;<br/>                &lt;h1 style=&quot;font-size:1.0pt;mso-font-width:1%;mso-style-textfill-type: none;&quot;&gt;Title for screen reader&lt;/h1&gt;<br/>                &lt;span style=&quot;font-size:1.0pt;mso-font-width:1%;mso-style-textfill-type: none;&quot;&gt;text for screen reader&lt;/span&gt;<br/>                &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;<br/>              &lt;tr&gt;&lt;td align=&quot;center&quot; style=&quot;font-family: Verdana, Arial,sans-serif; font-size:14px; mso-line-height-rule: exactly;line-height: 21px;  color: #000000;background-color:#ffffff;padding35px 20px;&quot;&gt;<br/>              &lt;![endif]--&gt;</code></p>
+                                    <p>We use a standard VML code that a screen reader will ignore in Outlook, and we add hidden text outside the VML tags that the screen reader will read. This approach ensures that screen reader users can access the content, even though the VML itself is not accessible by default.</p>
+                                    <p>Unlike VML buttons, in the case of background images, the hidden text hack doesn't always work perfectly. The VML component tends to block the cursor or cause glitches. While the reading experience is less fluid, using arrow keys, for example, the screen reader can still correctly announce the hidden content, including headings, text, and links. This is a simple way to make your VML blocks much more accessible!</p>
+                                    <p>Additional testing is needed, and your help in this area would be greatly appreciated!</p>
+                                    <p>Details of the hidden text technique in the 14.12 section below</p>
+                                  </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                        </div>
-                      </details>
-                    </section>
+                        </details>
+                      </section>
+                    </div>
                   </div>
-                </div>
-              </li>
-                </ul>
-                <div class="back-to-top">
-                  <a class="back-to-top_link" href="#criteria-container">Top of page</a>
-                </div>
+                </li>
+                <li class="criterion">
+                  <div class="criteres">
+                    <div class="anchor">
+                      <h3>
+                        <span class="number">14.12</span>
+                        <span class="title">Making your link texts accessible, with or without VML.</span>
+                      </h3>
+                      <section class="cc-accordion">
+                        <details>
+                          <summary>
+                            Details
+                          </summary>
+                          <div>
+                            <div>
+                              <div>
+                                <div class="test">
+                                  <div class="anchor">
+                                    <h4>14.11.1</h4>
+                                  </div>
+                                  <div class="title">
+                                    <p>On a majority of modern <span class="bold">email clients (hotmail, gmail etc.)</span>, an aria-label on a link allows you to add additional text:</p>
+                                    <p><code>&lt;a href=&quot;https://google.com&quot; aria-label=&quot;read more about this page&quot;&gt;read more&lt;/a&gt;</code></p>
+                                    <p>The screen reader (Narrator, NVDA on Chrome, PC) will read "read more about this page". It will read the aria-label, ignoring the link text.</p>
+                                    <p>A <a href="https://www.goodemailcode.com/email-accessibility/visually-hidden-text">hidden text HTML version</a> also gives the same result:</p>
+                                    <p><code>&lt;a href=&quot;https://google.com&quot;&amp;gt;read more&lt;span style=&quot;display:inline-block; max-height:0; max-width:0;mso-font-width:0%;mso-style-textfill-type: none; white-space: nowrap;&quot;&gt;&lt;span style=&quot;max-height:1px; max-width:1px; display:inline-block; overflow:hidden; font-size:1px;color:rgba(0,0,0,0);text-indent:9px;&quot;&gt;about this page&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;</code></p>
+                                    <p>A detailed description of this technique can be found on <a href="https://www.goodemailcode.com/email-accessibility/visually-hidden-text">Mark's page</a>.</p>
+                                    <p>With this HTML hack, the screen reader will read "read more about this page" on most email clients, including Outlook.</p>
+                                    <p>You could place this HTML hack outside of the link, but the screen reader will  specify that you are out of the link: "read more [out of link] about this page".</p>
+                                    <p><span class="bold">In Outlook</span>, WAI-ARIA attributes are not read. To create a version of the hack specifically for Outlook, keeping only the relevant CSS properties, we can simplify the code above and target just the necessary styles for Outlook's unique rendering. For example :</p>
+                                    <p><code>&lt;a href=&quot;https://google.com&quot;&amp;gt;read more&lt;span style=&quot;height:0; width:0; font-size:0px;text-decoration: none;mso-font-width:0%;mso-style-textfill-type: none;&quot;&gt;about this page&lt;/span&gt;&lt;/a&gt;
+                                      </code>
+                                    </p>
+                                    <p><span class="bold">However, it is important to note one thing about this code.</span>: Upon receipt, Outlook transforms:</p>
+                                    <p><code>height:0; width:0; font-size:0px;mso-font-width:0%;mso-style-textfill-type: none;</code></p>
+                                    <p>into:</p>
+                                    <p><code>font-size:1.0pt;mso-bidi-font-size:24.0pt;mso-fareast-font-family:"Times New Roman";color:black;mso-color-alt:windowtext;mso-font-width:1%;mso-style-textfill-type:none;mso-style-textfill-fill-gradientfill-shadetype:linear;mso-style-textfill-fill-gradientfill-shade-linearshade-angle:0;mso-style-textfill-fill-gradientfill-shade-linearshade-fscaled:no</code></p>
+                                    <p>Whether you use <code>font-size:1px</code>, <code>font-size:0</code>, <code>font-size:1pt</code>, or <code>mso-ansi-font-size:0</code>, <code>mso-ansi-font-size:1px</code>, or <code>mso-ansi-font-size:1pt</code>, Outlook will convert your code to <code>font-size:1.0pt</code>. This seems to be the minimum size accepted.</p>
+                                    <p>It is also important to note that the <code>width</code> and <code>height</code> properties are ignored by Outlook when applied to a span element. As a result, these properties can be omitted.</p>
+                                    <p>So we can shorten our code for screen readers like so :</p>
+                                    <p><code> &lt;p&gt;&lt;a href=&quot;https://google.com&quot;  aria-label=&quot;read more about this page&quot;&gt;read more&lt;!--[if mso]&gt;&lt;span style=&quot;font-size:1.0pt;mso-font-width:1%;mso-style-textfill-type: none;&quot;&gt;about this page&lt;/span&gt;&lt;![endif]--&gt;&lt;/a&gt;&lt;/p&gt;</code></p>
+                                    <p>The rest of the mso-properties are automatically injected by Outlook, so there's no need to code them.</p>
+                                    <p>The visual rendering will be exactly the same, and the screen reader on Outlook will read "read more about this page".</p>
+                                    <p><span class="bold">Summary:</span></p>
+                                    <ol>
+                                      <li>On a standard HTML link, you can add hidden text for screen readers, with a hack that will be read in almost all email clients, including Outlook:<br>
+                                        <code>&lt;a href=&quot;https://google.com&quot;&amp;gt;read more&lt;span style=&quot;display:inline-block; max-height:0; max-width:0;mso-font-width:0%;mso-style-textfill-type: none; white-space: nowrap;&quot;&gt;&lt;span style=&quot;max-height:1px; max-width:1px; display:inline-block; overflow:hidden; font-size:1px;color:rgba(0,0,0,0);text-indent:9px;&quot;&gt;about this page&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;</code>
+                                      </li>
+                                      <li><span class="bold">Since ARIA attributes are read by screen readers on most email clients, but Outlook does not interpret them, we can simplify the code</span> as follows:<br>
+                                        <code>&lt;a href=&quot;https://google.com&quot; aria-label=&quot;read more about this page&quot;&gt;read more&lt;!--[if mso]&gt;&lt;span style=&quot;font-size:1.0pt;mso-font-width:1%;mso-style-textfill-type: none;&quot;&gt;about this page&lt;/span&gt;&lt;![endif]--&gt;&lt;/a&gt;</code>
+                                        <br>
+                                        Here, we use a small hack for Outlook, and a simple aria-label for all other email clients.
+                                      </li>
+                                      <li>If you need to code a <span class="bold">rounded button</span> and take Outlook into account, you will code your button by surrounding it or <span class="bold">adding a VML component</span> (v:rect).<br>
+                                        By default, in Outlook, your VML button will be inaccessible and not read by screen readers. So here we can use that same technique.<br>
+                                        <code>
+                                        &lt;!--[if mso]&gt;<br/>                &lt;v:roundrect xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot; href=&quot;https://google.com&quot; style=&quot;height:40px;v-text-anchor:middle;width:200px;&quot; arcsize=&quot;10%&quot; strokecolor=&quot;#1e3650&quot; fillcolor=&quot;#556270&quot;&gt;&lt;center style=&quot;color:#ffffff;font-family:sans-serif;font-size:13px;font-weight:bold&quot;&gt;Read more&lt;/center&gt;&lt;/v:roundrect&gt;<br/>                &lt;a href=&quot;http://google.com&quot; style=&quot;font-size:1.0pt;mso-font-width:1%;mso-style-textfill-type: none;&quot;&gt;Read more about this page&lt;/a&gt;&lt;![endif]--&gt;&lt;a href=&quot;http://google.com&quot; style=&quot;background-color:#556270;border:1px solid #1e3650;border-radius:4px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:13px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:200px;-webkit-text-size-adjust:none;mso-hide:all;&quot; aria-label=&quot;read more about this page&quot;&gt;Read more&lt;/a&gt;<br/>&lt;/div&gt;<br/></code>
+                                      </li>
+                                    </ol>
+                                    <p> Using this technique, your VML button will be fully accessible: it will pause briefly on the real VML button, then immediately proceed to the hidden link by reading "read more about this page". This invisible button will be clickable for screen reader users. In other email clients, the screen reader will read the normal HTML link, taking the aria-label into account: "read more about this page".
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </details>
+                      </section>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <div class="back-to-top">
+                <a class="back-to-top_link" href="#criteria-container">Top of page</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </main>
     <footer class="cc-footer" role="contentinfo" tabindex="-1">
-    <div class="flex-container">
-    <div class="cc-footer__body">
-    <p class="copyright">© Matthieu Solente  <a href="https://github.com/matthieuSolente/wcag-for-email">View on Github <img src="https://github.com/matthieuSolente/email-skeleton-generator/blob/main/img/github-mark.png?raw=true" alt="my github page" style="width:20px"></a></p>
-    </div>
-    </div>
+      <div class="flex-container">
+        <div class="cc-footer__body">
+          <p class="copyright">© Matthieu Solente  <a href="https://github.com/matthieuSolente/wcag-for-email">View on Github <img src="https://github.com/matthieuSolente/email-skeleton-generator/blob/main/img/github-mark.png?raw=true" alt="my github page" style="width:20px"></a></p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
