@@ -1,6 +1,6 @@
 # Web Content Accessibility Guidelines (WCAG) For Email
 
-Before addressing the "[criteria and tests]((https://matthieusolente.github.io/wcag-for-email/)" primarily relevant to email developers, this page provides a brief overview of the current state of digital accessibility. It includes a timeline of key initiatives, essential definitions, and the specifics of the main recommendations in this area. [WCAG checklist for email]
+Before addressing the "[criteria and tests](https://matthieusolente.github.io/wcag-for-email/)" primarily relevant to email developers, this page provides a brief overview of the current state of digital accessibility. It includes a timeline of key initiatives, essential definitions, and the specifics of the main recommendations in this area. [WCAG checklist for email]
 
 ## Chronology
 
