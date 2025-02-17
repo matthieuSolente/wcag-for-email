@@ -77,7 +77,7 @@ Like WCAG 1.0, this version of the W3C’s web accessibility guidelines categori
 
 ## 2018 WCAG 2.1
 
-In June 2028, **WCAG 2.1** was released. Rather than a complete overhaul as was seen in the transition from version 1.0 to version 2.0, WCAG 2.1 added success criteria to the existing 2.0 guidelines. This addition of new rules—rather than re-establishing old rules—is a testament to the careful crafting of WCAG 2.0. Many of the new rules in WCAG 2.1 remove accessibility barriers that have become apparent as mobile web browsing has become more popular.
+In June 2018, **WCAG 2.1** was released. Rather than a complete overhaul as was seen in the transition from version 1.0 to version 2.0, WCAG 2.1 added success criteria to the existing 2.0 guidelines. This addition of new rules—rather than re-establishing old rules—is a testament to the careful crafting of WCAG 2.0. Many of the new rules in WCAG 2.1 remove accessibility barriers that have become apparent as mobile web browsing has become more popular.
 
 ## 2023 WCAG 2.2
 
