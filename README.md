@@ -2,6 +2,8 @@
 
 Before addressing the "[criteria and tests](https://matthieusolente.github.io/wcag-for-email/)" primarily relevant to email developers, this introduction page provides a brief overview of the current state of digital accessibility. It includes a timeline of key initiatives, essential definitions, and the specifics of the main recommendations in this area. 
 
+This text is intended for marketing teams, as well as those working around web and email marketing, with no prior knowledge of digital accessibility.
+
 ## Chronology
 
 Here is a clear and concise chronology that outlines the origins of digital accessibility and provides an understanding of its development over time.
