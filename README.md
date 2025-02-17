@@ -1,6 +1,6 @@
 # Web Content Accessibility Guidelines (WCAG) For Email
 
-Check my [WCAG checklist for email](https://matthieusolente.github.io/wcag-for-email/)
+Before addressing the "[criteria and tests]((https://matthieusolente.github.io/wcag-for-email/)" primarily relevant to email developers, this page provides a brief overview of the current state of digital accessibility. It includes a timeline of key initiatives, essential definitions, and the specifics of the main recommendations in this area. [WCAG checklist for email]
 
 ## Chronology
 
@@ -320,7 +320,7 @@ Designer
 
 To further **enhance email accessibility**, I created a page based on the French framework in this area, the "**General Accessibility Framework for Administrations**" (RGAA). Fully **based on WCAG**, this framework outlines the criteria necessary to **ensure full compliance**.
 
-The "Tests and Criteria" page is simply **the most comprehensive and clear summary** I have found on the web regarding WCAG guidelines.
+The french government "Tests and Criteria" page is simply **the most comprehensive and clear summary** I have found on the web regarding WCAG guidelines.
 
 The **logical classification** and **enumeration of criteria** make it easier to identify key points of attention when analyzing an email or a web page. The **descriptions of the tests** to be performed for each criterion provide valuable assistance, making it **easier to understand** and remember the compliance criteria.
 
@@ -328,13 +328,13 @@ My page is therefore an **replica of the RGAA criteria and tests**, with all the
 
 I kept the same layout by extracting the code from the official website (like a fork), then removed all the JavaScript and simply replaced the accordions with "details" HTML tags.
 
-Check my [WCAG checklist for email](https://matthieusolente.github.io/wcag-for-email/)
+**So check my [WCAG checklist for email](https://matthieusolente.github.io/wcag-for-email/) to make your emails more accessible  !!**
 
 It is thus a **concrete and functional checklist**, designed to support every email developer or marketer when creating email campaigns.
 
 For the "Best practises" section, I relied heavily on online sources, all cited in the following paragraph, on my own little knowledge, and on exchanges with many email developers, notably within the "email geek slack" space.
 
-Any contribution or correction to this work on accessibility is truly welcome.
+**Any contribution or correction to this work on accessibility is truly welcome.**
 
 ## References 
 
