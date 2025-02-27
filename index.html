@@ -6159,22 +6159,23 @@
                                     <p>The visual rendering will be exactly the same, and the screen reader on Outlook will read "read more about this page".</p>
                                     <p><span class="bold">Summary:</span></p>
                                     <ol>
-                                      <li>On a standard HTML link, you can add hidden text for screen readers, with a hack that will be read in almost all email clients, including Outlook:<br>
+                                      <li>On a classic HTML link, to add context to the link text, you can use the aria-label attribute, but <a href="https://www.caniemail.com/search/?s=aria-label">it will not be read by all email clients</a>.</li>
+                                      <li>You can therefor add hidden text for screen readers, with a hack that will be read in almost all email clients, including Outlook, Yahoo etc. :<br>
                                         <code>&lt;a href=&quot;https://google.com&quot;&amp;gt;read more&lt;span style=&quot;display:inline-block; max-height:0; max-width:0;mso-font-width:0%;mso-style-textfill-type: none; white-space: nowrap;&quot;&gt;&lt;span style=&quot;max-height:1px; max-width:1px; display:inline-block; overflow:hidden; font-size:1px;color:rgba(0,0,0,0);text-indent:9px;&quot;&gt;about this page&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;</code>
                                       </li>
-                                      <li><span class="bold">Since ARIA attributes are read by screen readers on most email clients, but Outlook does not interpret them, we can simplify the code</span> as follows:<br>
+                                      <li><span class="bold">For a solution that only targets the Outlook mailbox, we can simplify the code</span> as follows:<br>
                                         <code>&lt;a href=&quot;https://google.com&quot; aria-label=&quot;read more about this page&quot;&gt;read more&lt;!--[if mso]&gt;&lt;span style=&quot;font-size:1.0pt;mso-font-width:1%;mso-style-textfill-type: none;&quot;&gt;about this page&lt;/span&gt;&lt;![endif]--&gt;&lt;/a&gt;</code>
                                         <br>
                                         Here, we use a small hack for Outlook, and a simple aria-label for all other email clients.
                                       </li>
-                                      <li>If you need to code a <span class="bold">rounded button</span> and take Outlook into account, you will code your button by surrounding it or <span class="bold">adding a VML component</span> (v:roundrect).<br>
-                                        By default, in Outlook, your VML button will be inaccessible and not read by screen readers. So here we can use that same technique.<br>
+                                      <li>Here is an example with a <span class="bold">rounded button</span>, using VML code (v:roundrect).<br>
                                         <code>
                                         &lt;!--[if mso]&gt;<br/>                &lt;v:roundrect xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot; href=&quot;https://google.com&quot; style=&quot;height:40px;v-text-anchor:middle;width:200px;&quot; arcsize=&quot;10%&quot; strokecolor=&quot;#1e3650&quot; fillcolor=&quot;#556270&quot;&gt;&lt;center style=&quot;color:#ffffff;font-family:sans-serif;font-size:13px;font-weight:bold&quot;&gt;Read more&lt;/center&gt;&lt;/v:roundrect&gt;<br/>                &lt;a href=&quot;http://google.com&quot; style=&quot;font-size:1.0pt;mso-font-width:1%;mso-style-textfill-type: none;&quot;&gt;about this page&lt;/a&gt;&lt;![endif]--&gt;&lt;a href=&quot;http://google.com&quot; style=&quot;background-color:#556270;border:1px solid #1e3650;border-radius:4px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:13px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:200px;-webkit-text-size-adjust:none;mso-hide:all;&quot; aria-label=&quot;read more about this page&quot;&gt;Read more&lt;/a&gt;<br/>&lt;/div&gt;<br/></code>
                                       </li>
                                     </ol>
-                                    <p> Using this technique, your VML button will be fully accessible on Outlook: it will pause briefly on the real VML button, then immediately proceed to the hidden link by reading "read more about this page". This invisible button will be clickable for screen reader users. In other email clients, the screen reader will read the normal HTML link, taking the aria-label into account: "read more about this page".
+                                    <p> Using this technique, your VML button will be more accessible on Outlook: it will pause briefly on the real VML button, then immediately proceed to the hidden link by reading "read more about this page". This invisible button will be clickable for screen reader users. In other email clients, the screen reader will read the normal HTML link, taking the aria-label into account: "read more about this page".
                                     </p>
+                                    <p>Namely to choose between aria-label or hidden text : aria-label text doesn't get picked up by find in page search, but hidden text does.</p>
                                   </div>
                                 </div>
                               </div>
